@@ -14,10 +14,10 @@ title = "Blowfish"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
+[params.author]
+name = "Zak Forster"
 #   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
+image = "img/zak.jpg"
 #   imageQuality = 96
 #   headline = "I'm only human"
 #   bio = "A little bit about you"
