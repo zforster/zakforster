@@ -5,7 +5,7 @@ theme = 'blowfish'
 
 [params.author]
 name = "Zak Forster"
-image = "img/zak4.jpg"
+image = "img/zak.jpg"
 headline = "Test"
 bio = "A little bit about me"
 
