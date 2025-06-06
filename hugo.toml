@@ -2,3 +2,7 @@ baseURL = 'https://zakforster.com/'
 languageCode = 'en-us'
 title = 'Zak Forster'
 theme = 'vortisil'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
