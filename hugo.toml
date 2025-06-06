@@ -1,7 +1,13 @@
 baseURL = 'https://zakforster.com/'
-languageCode = 'en-us'
+languageCode = 'en-gb'
 title = 'Zak Forster'
-theme = 'vortisil'
+theme = 'blowfish'
+
+[params.author]
+name = "Zak Forster"
+image = "img/zak4.jpg"
+headline = "Test"
+bio = "A little bit about me"
 
 [caches]
   [caches.images]
