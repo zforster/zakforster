@@ -23,7 +23,7 @@
 
 [[main]]
   name = "Book Notes"
-  pageRef = "book-notes"
+  pageRef = "book notes"
   weight = 3
 
 #[[main]]
