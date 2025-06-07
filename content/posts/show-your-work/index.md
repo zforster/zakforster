@@ -25,3 +25,5 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 - Sed do eiusmod tempor incididunt
 
 Thank you for visiting this sample page!
+
+{{< newsletter >}}
