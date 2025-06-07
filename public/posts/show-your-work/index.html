@@ -108,7 +108,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "141"
+    "wordCount": "143"
   }]
   </script>
 
@@ -1936,18 +1936,77 @@
   }
 </style>
 
+<style type="text/css">
+  .ml-mobileButton-horizontal {
+    display: none;
+  }
+
+  #mlb2-26960265 .ml-mobileButton-horizontal button {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    cursor: pointer;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    padding: 10px !important;
+    width: 100% !important;
+  }
+
+  @media only screen and (max-width: 400px) {
+    #mlb2-26960265.ml-form-embedContainer
+      .ml-form-embedWrapper
+      .ml-form-embedBody
+      .ml-form-formContent.horozintalForm {
+      padding: 0 0 10px 0 !important;
+    }
+    .ml-hide-horizontal {
+      display: none !important;
+    }
+    .ml-form-formContent.horozintalForm .ml-button-horizontal {
+      display: none !important;
+    }
+    .ml-mobileButton-horizontal {
+      display: inline-block !important;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    .ml-form-formContent.horozintalForm
+      .ml-form-horizontalRow
+      .ml-input-horizontal
+      > div {
+      padding-bottom: 0px !important;
+    }
+  }
+</style>
+<style type="text/css">
+  @media only screen and (max-width: 400px) {
+    .ml-form-formContent.horozintalForm
+      .ml-form-horizontalRow
+      .horizontal-fields {
+      margin-bottom: 10px !important;
+      width: 100% !important;
+    }
+  }
+</style>
+
 <div
   id="mlb2-26960265"
   class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-26960265"
 >
   <div class="ml-form-align-center">
     <div class="ml-form-embedWrapper embedForm">
-      <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+      <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
         <div class="ml-form-embedContent" style="">
           <h4>Subscribe For More!</h4>
           <p>
             Each week, I share my thoughts on the latest across the domains of
-            technology, finance, and software development, directly to your
+            technology, finance, and software development, straight to your
             inbox.
           </p>
         </div>
@@ -1959,43 +2018,39 @@
           method="post"
           target="_blank"
         >
-          <div class="ml-form-formContent">
-            <div class="ml-form-fieldRow ml-last-item">
-              <div
-                class="ml-field-group ml-field-email ml-validate-email ml-validate-required"
-              >
-                
-                <input
-                  aria-label="email"
-                  aria-required="true"
-                  type="email"
-                  class="form-control"
-                  data-inputmask=""
-                  name="fields[email]"
-                  placeholder="Email"
-                  autocomplete="email"
-                />
-                
+          <div class="ml-form-formContent horozintalForm">
+            <div class="ml-form-horizontalRow">
+              <div class="ml-input-horizontal">
+                <div style="width: 100%" class="horizontal-fields">
+                  <div
+                    class="ml-field-group ml-field-email ml-validate-email ml-validate-required"
+                  >
+                    
+                    <input
+                      type="email"
+                      class="form-control"
+                      data-inputmask=""
+                      name="fields[email]"
+                      placeholder="Email"
+                      autocomplete="email"
+                    />
+                    
+                  </div>
+                </div>
+              </div>
 
-                
+              <div class="ml-button-horizontal primary">
+                <button type="submit" class="primary">Subscribe</button>
 
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
+                <button
+                  disabled="disabled"
+                  style="display: none"
+                  type="button"
+                  class="loading"
+                >
+                  <div class="ml-form-embedSubmitLoad"></div>
+                  <span class="sr-only">Loading...</span>
+                </button>
               </div>
             </div>
           </div>
@@ -2006,9 +2061,8 @@
 
           <input type="hidden" name="ml-submit" value="1" />
 
-          <div class="ml-form-embedSubmit">
+          <div class="ml-mobileButton-horizontal">
             <button type="submit" class="primary">Subscribe</button>
-
             <button
               disabled="disabled"
               style="display: none"
@@ -2019,7 +2073,6 @@
               <span class="sr-only">Loading...</span>
             </button>
           </div>
-
           <input type="hidden" name="anticsrf" value="true" />
         </form>
       </div>
