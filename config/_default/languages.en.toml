@@ -8,22 +8,22 @@ title = "Zak Forster"
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "January 6, 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Personal Website of Zak Forster"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
 name = "Zak Forster"
-#   email = "youremail@example.com"
+#   email = "zak@zakforster.com"
 image = "img/zak.jpg"
 #   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
-#     { link = "https://link-to-some-website.com/" },
+headline = "Software Engineer in the Finance Industry."
+   bio = "A professional Software Engineer with experience at leading financial institutions in London. This site is an open space to explore my curiosity and interests in technology, programming, finance, and whatever else inspires me!"
+   links = [
+     { email = "mailto:zak@zakforster.com" },
+#     { github = "https://github.com/username" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
 #     { blogger = "https://username.blogspot.com/" },
@@ -35,7 +35,6 @@ image = "img/zak.jpg"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/username" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -70,4 +69,4 @@ image = "img/zak.jpg"
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-#   ]
+   ]
