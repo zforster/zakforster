@@ -11,12 +11,12 @@
     
     <item>
       <title>Sample Lorem Ipsum Page</title>
-      <link>http://localhost:1313/posts/show-your-work/</link>
+      <link>http://localhost:1313/posts/why-i-started-a-blog.md/</link>
       <pubDate>Fri, 06 Jun 2025 23:55:47 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/show-your-work/</guid>
+      <guid>http://localhost:1313/posts/why-i-started-a-blog.md/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/show-your-work/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/why-i-started-a-blog.md/featured.png" />
     </item>
     
   </channel>
