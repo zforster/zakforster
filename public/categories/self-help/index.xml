@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self Help on Zak Forster</title>
+    <link>http://localhost:1313/categories/self-help/</link>
+    <description>Recent content in Self Help on Zak Forster</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Zak Forster</copyright>
+    <lastBuildDate>Mon, 09 Jun 2025 21:55:47 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/self-help/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Show Your Work! (Austin Kleon)</title>
+      <link>http://localhost:1313/book-notes/show-your-work/</link>
+      <pubDate>Mon, 09 Jun 2025 21:55:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/book-notes/show-your-work/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/book-notes/show-your-work/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
