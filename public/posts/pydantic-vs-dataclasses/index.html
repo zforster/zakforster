@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Show Your Work! (Austin Kleon) &middot; Zak Forster</title>
-  <meta name="title" content="Show Your Work! (Austin Kleon) &middot; Zak Forster" />
+  <title>Data Classes  &middot; Zak Forster</title>
+  <meta name="title" content="Data Classes  &middot; Zak Forster" />
   
   <meta name="description" content="Personal Website of Zak Forster" />
   
@@ -17,7 +17,7 @@
   <meta name="robots" content="all" />
   
   
-  <link rel="canonical" href="http://localhost:1313/book-notes/show-your-work/" />
+  <link rel="canonical" href="http://localhost:1313/posts/pydantic-vs-dataclasses/" />
   
   
   
@@ -66,21 +66,21 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/book-notes/show-your-work/">
+  <meta property="og:url" content="http://localhost:1313/posts/pydantic-vs-dataclasses/">
   <meta property="og:site_name" content="Zak Forster">
-  <meta property="og:title" content="Show Your Work! (Austin Kleon)">
+  <meta property="og:title" content="Data Classes ">
   <meta property="og:description" content="Personal Website of Zak Forster">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="book-notes">
+    <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-06-09T21:55:47+01:00">
     <meta property="article:modified_time" content="2025-06-09T21:55:47+01:00">
-    <meta property="og:image" content="http://localhost:1313/book-notes/show-your-work/featured.jpg">
+    <meta property="og:image" content="http://localhost:1313/posts/pydantic-vs-dataclasses/featured.jpg">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/book-notes/show-your-work/featured.jpg">
-  <meta name="twitter:title" content="Show Your Work! (Austin Kleon)">
+  <meta name="twitter:image" content="http://localhost:1313/posts/pydantic-vs-dataclasses/featured.jpg">
+  <meta name="twitter:title" content="Data Classes ">
   <meta name="twitter:description" content="Personal Website of Zak Forster">
 
   
@@ -88,13 +88,13 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Book Notes",
-    "name": "Show Your Work! (Austin Kleon)",
-    "headline": "Show Your Work! (Austin Kleon)",
+    "articleSection": "Posts",
+    "name": "Data Classes ",
+    "headline": "Data Classes ",
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/book-notes\/show-your-work\/",
+    "url" : "http:\/\/localhost:1313\/posts\/pydantic-vs-dataclasses\/",
     "author" : {
       "@type": "Person",
       "name": "Zak Forster"
@@ -108,7 +108,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1810"
+    "wordCount": "34"
   }]
   </script>
 
@@ -446,7 +446,7 @@
   
   
         
-            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/book-notes/show-your-work/featured_hu_eea4463356f25912.jpg);"></div>
+            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/posts/pydantic-vs-dataclasses/featured_hu_eea4463356f25912.jpg);"></div>
         
     
   
@@ -473,8 +473,8 @@
   <li class="inline">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/book-notes/"
-      >Book Notes</a
+      href="/posts/"
+      >Posts</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -482,8 +482,8 @@
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/book-notes/show-your-work/"
-      >Show Your Work! (Austin Kleon)</a
+      href="/posts/pydantic-vs-dataclasses/"
+      >Data Classes </a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -492,7 +492,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Show Your Work! (Austin Kleon)
+      Data Classes 
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -537,7 +537,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-06-09T21:55:47&#43;01:00">June 6, 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-06-09T21:55:47&#43;01:00">June 6, 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.2a0a1375509c03daf41c53a9831aa2d560895b7a2528c3eb3b56e7b11a135c7529e49727162a053b6193be8340270a8342f42c69f3d7e262ae54bc248eaac8f5.js" integrity="sha512-KgoTdVCcA9r0HFOpgxqi1WCJW3olKMPrO1bnsRoTXHUp5JcnFioFO2GTvoNAJwqDQvQsafPX4mKuVLwkjqrI9Q=="></script>
@@ -576,18 +576,10 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/book-notes/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/python/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Book Notes
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/self-help/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Self Help
+    Python
   </span>
 </span>
   </span>
@@ -638,27 +630,7 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#-whats-the-theme">🚀 What’s the Theme?</a></li>
-    <li><a href="#-who-should-read-this">🤷‍♂️ Who Should Read This?</a></li>
-    <li><a href="#-my-key-takeaways">💡 My Key Takeaways</a>
-      <ul>
-        <li><a href="#1---be-findable">1 - Be Findable</a></li>
-        <li><a href="#2---embrace-your-inner-amateur">2 - Embrace Your Inner Amateur</a></li>
-        <li><a href="#3---dont-overshare">3 - Don&rsquo;t Overshare</a></li>
-        <li><a href="#4---learn-to-tell-stories">4 - Learn to Tell Stories</a></li>
-        <li><a href="#5---seek-criticism">5 - Seek Criticism</a></li>
-        <li><a href="#6---keep-the-momentum">6 - Keep the Momentum</a></li>
-      </ul>
-    </li>
-    <li><a href="#-things-that-made-me-think">🧠 Things That Made Me Think</a>
-      <ul>
-        <li><a href="#1---the-importance-of-a-personal-website">1 - The Importance of a Personal Website</a></li>
-        <li><a href="#2---sell-out">2 - Sell Out</a></li>
-        <li><a href="#3---read-obituraries">3 - Read Obituraries</a></li>
-      </ul>
-    </li>
-    <li><a href="#-lines-that-hit-hard">🔥 Lines That Hit Hard</a></li>
-    <li><a href="#-how-im-using-this">✅ How I’m Using This</a></li>
+    <li><a href="#abc">abc</a></li>
   </ul>
 </nav>
   </div>
@@ -672,27 +644,7 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#-whats-the-theme">🚀 What’s the Theme?</a></li>
-    <li><a href="#-who-should-read-this">🤷‍♂️ Who Should Read This?</a></li>
-    <li><a href="#-my-key-takeaways">💡 My Key Takeaways</a>
-      <ul>
-        <li><a href="#1---be-findable">1 - Be Findable</a></li>
-        <li><a href="#2---embrace-your-inner-amateur">2 - Embrace Your Inner Amateur</a></li>
-        <li><a href="#3---dont-overshare">3 - Don&rsquo;t Overshare</a></li>
-        <li><a href="#4---learn-to-tell-stories">4 - Learn to Tell Stories</a></li>
-        <li><a href="#5---seek-criticism">5 - Seek Criticism</a></li>
-        <li><a href="#6---keep-the-momentum">6 - Keep the Momentum</a></li>
-      </ul>
-    </li>
-    <li><a href="#-things-that-made-me-think">🧠 Things That Made Me Think</a>
-      <ul>
-        <li><a href="#1---the-importance-of-a-personal-website">1 - The Importance of a Personal Website</a></li>
-        <li><a href="#2---sell-out">2 - Sell Out</a></li>
-        <li><a href="#3---read-obituraries">3 - Read Obituraries</a></li>
-      </ul>
-    </li>
-    <li><a href="#-lines-that-hit-hard">🔥 Lines That Hit Hard</a></li>
-    <li><a href="#-how-im-using-this">✅ How I’m Using This</a></li>
+    <li><a href="#abc">abc</a></li>
   </ul>
 </nav>
   </div>
@@ -711,248 +663,20 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p><strong><a href="https://amzn.to/44cjatQ" target="_blank">✅📘 Grab the Book on Amazon »</a></strong></p>
-
-<h2 class="relative group">🚀 What’s the Theme? 
-    <div id="-whats-the-theme" class="anchor"></div>
+          
+<h2 class="relative group">abc 
+    <div id="abc" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#-whats-the-theme" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#abc" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p><code>Show Your Work!</code> by Austin Kleon is a book that encourages us to become comfortable with self-promotion by sharing and documenting our work online. The premise is simple; if we want people to know about what we do, we have to start sharing it.</p>
-<p>By doing so, we not only make our work discoverable, but we transform it from something private, to something collaborative and community orientated, allowing us to connect with others who share similar interests. This may result in us forming our own communities that over time can grant us huge opportunities.</p>
-<p>The book provides practical advice on how to share our process in ways that attract like minded people. Kleon also acknowledges the challenges of putting yourself out there, and offers strategies for dealing with the inevitable downsides that come with sharing.</p>
-<p>Kleon introduces the concept of flow: the small, frequent posts we share as part of our everyday activity. Over time, enough flow can give rise to stock: our content that has longevity. For example, a series of tweets might form a recurring theme, eventually inspiring a chapter in a book.</p>
-
-<h2 class="relative group">🤷‍♂️ Who Should Read This? 
-    <div id="-who-should-read-this" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#-who-should-read-this" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<blockquote>
-<p>a book for people who hate the very idea of self-promotion</p></blockquote>
-<p>If you’re anything like me, the thought of promoting yourself online is met with a certain level of apprehension. After all, putting yourself out there is daunting, and there are endless reasons to convince ourselves not to bother:</p>
 <ul>
-<li>By sharing my work online all my great ideas will be stolen and I&rsquo;ll lose out.</li>
-<li>My work simply isn&rsquo;t good enough to share.</li>
-<li>I will only face criticism and ridicule.</li>
-<li>Everything’s already been said, why would someone want to listen to me?</li>
+<li>represnting data</li>
 </ul>
-<p>Maybe you are correct. Perhaps your work isn&rsquo;t quite there yet, and you will probably face criticsm. This book encourages you to embrace these doubts and recognise that imperfect work sits on the same spectrum as mastery, and criticsm only serves as an agent of improvement.</p>
-<p>If you’ve ever had the urge to share your interests online but needed some encouragement, this book might be just what you need.</p>
-
-<h2 class="relative group">💡 My Key Takeaways 
-    <div id="-my-key-takeaways" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#-my-key-takeaways" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-
-<h3 class="relative group">1 - Be Findable 
-    <div id="1---be-findable" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1---be-findable" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>The notion that achieving mastery over a domain automatically leads to recognition and significance is unrealistic. Exceptional work will go unnoticed if it exists in isolation. If we seek recognition, our work must be visible. The best way to achieve this is by making use of the online space.</p>
-<blockquote>
-<p>In this day and age, if your work isn&rsquo;t online, it doesn&rsquo;t exist</p></blockquote>
-<p>When we make our work discoverable, others can engage with it, learn from it, and build upon it. Kleon encourages us to disregard the myth of the lone genius; the individual who appears out of nowhere, free of all external influences, revealing to the world their great feat of accomplishment.</p>
-<p>Creativity is a collaborative process. Great ideas are often conceived when talented individuals are able to share or imitate what they’ve discovered.</p>
-<blockquote>
-<p>If I have seen further, it is by standing on the shoulders of giants</p></blockquote>
-<p>When we keep what we’ve learned to ourselves, it is lost to us. By teaching others, we not only generate interest in our work, but also sharpen our ability to communicate it clearly.</p>
-
-<h3 class="relative group">2 - Embrace Your Inner Amateur 
-    <div id="2---embrace-your-inner-amateur" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#2---embrace-your-inner-amateur" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Amateurs are not bound by historical convention. By virtue of their naivety, they try the unorthodox, conducting trial and error experiments that lead to improvement. Having the space to make mistakes is a major advantage amateurs have over someone with experience. Amateurs have the confidence to be proactive and take action. Some action, however imperfect, is far better than inaction.</p>
-<p>Be comfortable making mistakes. Make mistakes in the open so that others can learn from them. Amateurs can often be better teachers than masters; the amateur has recently overcome a difficulity that the master has long since forgotten.</p>
-<blockquote>
-<p>People want to see how the sausage gets made</p></blockquote>
-
-<h3 class="relative group">3 - Don&rsquo;t Overshare 
-    <div id="3---dont-overshare" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#3---dont-overshare" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Sharing is not the same as oversharing. Sharing imperfect or unfinished work is absolutely fine, but we should always consider how what we are sharing reflects on us and influences the perceptions of our personal brand.</p>
-<blockquote>
-<p>Post as though everyone who can read it has the power to fire you</p></blockquote>
-<p>If you are unsure about whether to post something, let it sit. Revisit it with fresh eyes and ask: is this insightful, helpful, or at the very least, entertaining?</p>
-
-<h3 class="relative group">4 - Learn to Tell Stories 
-    <div id="4---learn-to-tell-stories" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#4---learn-to-tell-stories" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Humans attatch meaning to things with a story behind them. I personally am rather fond of my grandad&rsquo;s Casio F-91W. Materially, it has almost zero value, but sentimatally I&rsquo;d take that over any of the other millions of pre-owned Casios out there, as I associate it with him. The watch holds meaning for me, but I very much doubt it does for anyone else in the world.</p>
-<p>Can storytelling create monetary value? Swap the Casio for a Rolex Daytona, and my grandad for 1960s–70s Hollywood icon Paul Newman, and you’ve got an auction sale worth <a href="https://www.forbes.com/sites/hylabauer/2017/10/26/paul-newmans-paul-newman-daytona-sells-for-15-5-million-a-record-for-a-wristwatch-at-auction/" target="_blank">$17.8 million</a>. That&rsquo;s a lot of value created through association and storytelling.</p>
-<p>The stories we tell about our work have a powerful effect on how people feel about it. Give your work value by wrapping it in a good story.</p>
-<p>Ok, but what makes a story good?</p>
-<blockquote>
-<p>A character wants something, goes after it despite opposition, and so arrives at a win, lose, or draw</p></blockquote>
-
-<h3 class="relative group">5 - Seek Criticism 
-    <div id="5---seek-criticism" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#5---seek-criticism" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Putting your work into the world opens it up to criticism. We have to be ready for this and embrace it.
-Criticism, in its constructive form, is an immensely powerful tool we can use to improve upon our weaknesses.</p>
-<p>That said, constructive criticism is different from hatred. Don&rsquo;t engage with the trolls, we gain nothing from talking to these people.</p>
-<blockquote>
-<p>The trick is not caring what everybody thinks of you and just caring about what the right people think of you</p></blockquote>
-
-<h3 class="relative group">6 - Keep the Momentum 
-    <div id="6---keep-the-momentum" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#6---keep-the-momentum" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Don&rsquo;t quit prematurely. The people who achieve their goals are very often the ones who just stick around.</p>
-<p>Avoid stalling by maintaining momentum. Instead of taking breaks between projects and looming over what is next, use the end of one project to mark the start of the next.
-Ask yourself what you could have improved upon, or didn&rsquo;t get to and go again.</p>
-<p>At some point however, you may burn out. Take sababaticals; these daily, weekly, or monthly breaks can make all the difference, leaving us revitalised for the next project.</p>
-
-<h2 class="relative group">🧠 Things That Made Me Think 
-    <div id="-things-that-made-me-think" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#-things-that-made-me-think" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-
-<h3 class="relative group">1 - The Importance of a Personal Website 
-    <div id="1---the-importance-of-a-personal-website" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1---the-importance-of-a-personal-website" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Nothing beats having your own personal headquarters online. Create a space you fully control, where you’re free to post whatever matters to you.</p>
-<p>Think of owning your platform as holding freehold. Using someone else’s platform is like having a leasehold: you’re building an audience on someone else’s infrastructure and terms. You may have usage rights, but you don&rsquo;t own the underlying asset. The freeholder can change the terms, deplatform you, or limit your reach with little recourse. Owning your distribution channels, through your website and email list, gives you control.</p>
-<blockquote>
-<p>Build a good domain name, keep it clean, and eventually it will be its own currency</p></blockquote>
-
-<h3 class="relative group">2 - Sell Out 
-    <div id="2---sell-out" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#2---sell-out" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>We need to move beyond the romanticism of the starving artist. Creating wealth is a good thing that should be encouraged. There is no shame in this pursuit, and we should never feel jealous when others achieve financial success. Many great works of history would not have existed without financial motivation.</p>
-<blockquote>
-<p>Michelangelo painted the Sistine Chapel ceiling because the pope commissioned him</p></blockquote>
-<p>If an audience has gathered around the work we freely share, and we are confident we provide real value, we may want to convert our audience into patrons. Donations are one way to do this, for example by using services like <a href="https://buymeacoffee.com/" target="_blank">buy me a coffee</a>.</p>
-<p>One of the most powerful methods of monetisation is the mailing list. Email may be decades old, but everyone has an address, and the format is far from dead. When you send an email, it lands in the recipient’s inbox and attracts their attention. Granted, they may not open it, but it will be there, and there is no algorithm from a social media giant to content with.</p>
-<p>Start building your mailing list. Treat it with respect, do not betray the trust of those who have given you their email by spamming them.</p>
-<blockquote>
-<p>The model is very simple: They give away great stuff on their sites, they collect emails, and when they have something remarkable to share or sell, they send an email.</p></blockquote>
-
-<h3 class="relative group">3 - Read Obituraries 
-    <div id="3---read-obituraries" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#3---read-obituraries" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>A little morbid, but this book encourages us to read obituaries&hellip;</p>
-<p>The author uses them to reflect on the certainty of death, while keeping it at arm’s length. Obituaries aren&rsquo;t really about death anyway; they celebrate the achievements of someone who took risks and gained recognition.</p>
-<p>Reflecting on our inevitable end puts everything else into perspective. When contemplating our life choices, we often focus on the risks involved. These risks seem less daunting when you remember that you will, unfortunately, die eventually (sorry Bryan Johnson 😔).</p>
-<blockquote>
-<p>Remembering that I&rsquo;ll be dead soon is the most important tool I&rsquo;ve ever encountered to help me make the big choices in life.
-Almost everything, all external expectations, all pride, all fear of embarrassment or failure, these things just fall away in the face of death, leaving only what is truly important.
-Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.</p></blockquote>
-
-<h2 class="relative group">🔥 Lines That Hit Hard 
-    <div id="-lines-that-hit-hard" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#-lines-that-hit-hard" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<blockquote>
-<p>In order to be found, you have to be findable</p></blockquote>
-<blockquote>
-<p>Give what you have. To someone, it may be better than you dare to think</p></blockquote>
-<blockquote>
-<p>The best way to flourish is to retain an amateur’s spirit and embrace uncertainty and the unknown</p></blockquote>
-<blockquote>
-<p>Share what you love, and the people who love the same things will find you</p></blockquote>
-<blockquote>
-<p>In this day and age, if your work isn&rsquo;t online, it doesn&rsquo;t exist</p></blockquote>
-
-<h2 class="relative group">✅ How I’m Using This 
-    <div id="-how-im-using-this" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#-how-im-using-this" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>This book has given me the gentle push I needed to realise I should share more of my thoughts and expertise online. Ultimately, it has led to the creation of this website, which I intend to fill slowly with things I find interesting or insights I want to share. I don’t have a clear direction for it yet, but I am excited to see where it goes! Thanks for reading ✌️</p>
 <hr>
 <style type="text/css">
   @import url("https://assets.mlcdn.com/fonts.css?version=1749122");
@@ -2467,7 +2191,7 @@ Remembering that you are going to die is the best way I know to avoid the trap o
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/book-notes/show-your-work/&amp;title=Show%20Your%20Work!%20%28Austin%20Kleon%29"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/posts/pydantic-vs-dataclasses/&amp;title=Data%20Classes%20"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -2486,7 +2210,7 @@ Remembering that you are going to die is the best way I know to avoid the trap o
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/book-notes/show-your-work/&amp;text=Show%20Your%20Work!%20%28Austin%20Kleon%29"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/posts/pydantic-vs-dataclasses/&amp;text=Data%20Classes%20"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -2504,7 +2228,7 @@ Remembering that you are going to die is the best way I know to avoid the trap o
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=Show%20Your%20Work!%20%28Austin%20Kleon%29&#43;http://localhost:1313/book-notes/show-your-work/"
+      href="https://bsky.app/intent/compose?text=Data%20Classes%20&#43;http://localhost:1313/posts/pydantic-vs-dataclasses/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -2522,7 +2246,7 @@ Remembering that you are going to die is the best way I know to avoid the trap o
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=http://localhost:1313/book-notes/show-your-work/&amp;subject=Show%20Your%20Work!%20%28Austin%20Kleon%29"
+      href="mailto:?body=http://localhost:1313/posts/pydantic-vs-dataclasses/&amp;subject=Data%20Classes%20"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -2551,8 +2275,8 @@ Remembering that you are going to die is the best way I know to avoid the trap o
           
         
       <script>
-        var oid = "views_book notes\/show-your-work\/index.md"
-        var oid_likes = "likes_book notes\/show-your-work\/index.md"
+        var oid = "views_posts\/pydantic-vs-dataclasses\/index.md"
+        var oid_likes = "likes_posts\/pydantic-vs-dataclasses\/index.md"
       </script>
       
       
