@@ -70,6 +70,8 @@ class Position:
 The `dataclass` provides us with a lean way to represent data as classes, providing type hints, attribute access, improved static type checking and custom domain logic. We can even provide some custom validation logic utilising `__post_init__`.
 
 ```python
+from dataclasses import dataclass
+
 class WeightException(Exception):
     pass
 
@@ -88,6 +90,8 @@ class Position:
 Whilst the Data Class provides type hints, we have no guarentee as to the type saftey of our fields at run time. In the below example, we naively parse some data returned via API into a `Position` instance. Notice we expect the `weight` attribute to be a `float`, yet the Data Class has no problem accepting a `string`.
 
 ```python
+from dataclasses import dataclass
+
 @dataclass
 class Position:
     ticker: str
@@ -108,6 +112,17 @@ print(type(p.weight))
 
 We do have the option to guard against this behaviour with custom validation logic inside of `__post_init__`, although this again introduces verbosity.
 
+## Enter Pydantic
+In Pydantic, users define models that inherit from BaseModel. Pydantic models also provide type hints and attribute access, however unlike Data Classes, Pydantic parses and validates the input data to ensure the resulting object conforms to the expected type definitions, raising `ValidationError` in the case the data does not conform, or cannot be cast to the expected type. 
+
+```python
+from pydantic import BaseModel
+
+class Position(BaseModel):
+    ticker: str
+    weight: float
+    sector: str
+```
 
 ---
 
