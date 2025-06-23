@@ -2,7 +2,7 @@
 date = "2025-06-22T20:00:47+01:00"
 draft = false
 title = "Pydantic vs Data Classes: Which Should You Use?"
-categories = ['Python', 'Software Engineering']
+categories = ['Python', 'Software Engineering', 'Pydantic', 'DataClasses']
 +++
 ## 🐍 Python Dictionaries
 
