@@ -41,7 +41,7 @@ moto_server -p3000
 
 ### Using Moto Within FastAPI
 
-My main entry point creates a FastAPI server instance bound to port 8000 using uvicorn. Before the server starts, a boto3 DynamoDB client is created, pointed to the Moto server instance created above. The default endpoint_url has been replaced with `http://localhost:3000`, this is to tell the client to use the local Moto server, not real AWS services. 
+My main entry point creates a FastAPI server instance bound to port 8000 using uvicorn. Before the server starts, a boto3 DynamoDB client is created, pointed to the Moto server instance created above. The default endpoint_url has been replaced with `http://localhost:3000`, this is to tell the client to use the local Moto server, not real AWS services.
 
 Once we have our client, an in memory table `AssetBasket` is created inside of our local Moto server instance. I've wrapped this in a `try / except` block as if I was to restart the FastAPI server whilst Moto server was running, a `botocore` exception would be raised as the table already exists on the server instance.
 
@@ -68,7 +68,7 @@ if __name__ == "__main__":
                 {"AttributeName": "SK", "AttributeType": "S"},
             ],
             ProvisionedThroughput={
-                "ReadCapacityUnits": 5, 
+                "ReadCapacityUnits": 5,
                 "WriteCapacityUnits": 5
             },
         )
@@ -76,9 +76,9 @@ if __name__ == "__main__":
         pass
 
     uvicorn.run(
-        "src.api.app:app", 
-        host="127.0.0.1", 
-        port=8000, 
+        "src.api.app:app",
+        host="127.0.0.1",
+        port=8000,
         reload=True,
     )
 ```
@@ -105,7 +105,7 @@ class AssetRepository:
         self.table.put_item(Item=asset_meta.to_dynamo())
 ```
 
-Finally I create a file `api/asset/app.py` containing the `/asset` API routes. Our API route itself is de-coupled from our application logic with a service layer function responsible for converting our input model to an `AssetMeta` object and orchestrating the call to the `AssetRepository` class to push the data into our table. 
+Finally I create a file `api/asset/app.py` containing the `/asset` API routes. Our API route itself is de-coupled from our application logic with a service layer function responsible for converting our input model to an `AssetMeta` object and orchestrating the call to the `AssetRepository` class to push the data into our table.
 
 ```python
 from fastapi import APIRouter, status
@@ -129,13 +129,24 @@ def add_asset_meta(asset_meta: api_model_input.AddAsset) -> api_model_output.Ass
     )
 ```
 
-That's all the setup we need to do, from there we can call functions within our asset repository, and as long as the moto server is running we have our locally mocked DynamoDB table available for our prototyping needs. 
+That's all the setup we need to do, from there we can call functions within our asset repository, and as long as the moto server is running we have our locally mocked DynamoDB table available for our prototyping needs.
 
 ### Pushing Data to Moto
 
 We now create an API route within our application
 
-
+curl -X 'POST' \
+ 'http://127.0.0.1:8000/asset/' \
+ -H 'accept: application/json' \
+ -H 'Content-Type: application/json' \
+ -d '{
+"name": "string",
+"tag": "string",
+"liquidityProfile": "HIGH",
+"ccy": "string",
+"value": 0,
+"valuationDate": "2025-06-29"
+}'
 
 ---
 
