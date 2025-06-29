@@ -135,18 +135,20 @@ That's all the setup we need to do, from there we can call functions within our 
 
 We now create an API route within our application
 
-curl -X 'POST' \
- 'http://127.0.0.1:8000/asset/' \
- -H 'accept: application/json' \
- -H 'Content-Type: application/json' \
- -d '{
-"name": "string",
-"tag": "string",
-"liquidityProfile": "HIGH",
-"ccy": "string",
-"value": 0,
-"valuationDate": "2025-06-29"
-}'
+Zaks-MBP:~ zak$ curl -X 'POST' \
+
+> 'http://127.0.0.1:8000/asset/' \
+>  -H 'accept: application/json' \
+>  -H 'Content-Type: application/json' \
+>  -d '{
+> "name": "string",
+> "tag": "string",
+> "liquidityProfile": "HIGH",
+> "ccy": "string",
+> "value": 0,
+> "valuationDate": "2025-06-29"
+> }'
+> {"identifier":"94e4e459-c7a5-4ed6-b301-6d1c6ac02f17"}
 
 ---
 
