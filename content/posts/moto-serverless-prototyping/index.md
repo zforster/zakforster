@@ -13,7 +13,7 @@ Moto doesn’t have full coverage of AWS services. However, it is actively devel
 
 ## ⚙️ Server Mode
 
-While the praise for Moto as a testing library is justified, a lesser known feature, or certainly one I hear less about, is Moto's [server mode.](https://docs.getmoto.org/en/latest/docs/server_mode.html) I believe server mode makes Moto not only a great testing tool, but also a great prototyping tool for serverless applications and a great alternative to SAM CLI, which I found to be clunky.
+While the praise for Moto as a testing library is justified, a lesser known feature, or certainly one I hear less about, is Moto's [server mode.](https://docs.getmoto.org/en/latest/docs/server_mode.html) I believe server mode makes Moto not only a great testing tool, but also a great prototyping tool for serverless applications and a great alternative to SAM CLI, which I found to be clunky and limits you to the [SAM](https://docs.aws.amazon.com/serverless-application-model/) framework.
 
 The main purpose of server mode is to allow developers to use Moto with any of the official AWS SDKs, not just Python. However, I have found server mode to be useful when looking to rapidly prototype and validate ideas locally.
 
