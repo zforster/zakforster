@@ -17,7 +17,7 @@
 
 
 [[main]]
-  name = "Developer Diaries"
+  name = "Dev Blog"
   pageRef = "posts"
   weight = 2
 
