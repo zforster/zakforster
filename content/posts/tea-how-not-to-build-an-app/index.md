@@ -5,7 +5,7 @@ title = "Tea App Data Breach: Learning From Gross Incompetence"
 categories = ['Software Engineering', 'Security', 'Data Breach']
 +++
 
-In July 2025, **Tea** - an app that enables women to perform collective background checks on men by posting their prospective male dates' personal information, without the individual's knowledge or consent suffered a major data leak.
+In July 2025, **Tea** - an app that enables women to perform collective background checks on men by posting their prospective male dates' personal information, without the individual's knowledge or consent, suffered a major data leak.
 
 Irony of the situation aside, this was a significant data breach that exposed the personal information of thousands of women. In total, over 59 GB of data was leaked, including 72,000 images, 13,000 of which were selfies or photo IDs, and 59,000 images from within the app.
 
