@@ -46,3 +46,13 @@ KMS also supports audit logging via AWS CloudTrail, allowing you to track which 
 The mistake Tea made in the messages leak was that they only verified a request came from an authenticated user. Once you were in, you were free to look at anything.
 
 Your backend should not only authenticate users but also verify that each request is authorised to access the specific resource being requested. Implement access control checks at the object level to ensure users can only view or modify data they own or are permitted to access.
+
+#### 3 - Tie Up Loose Ends
+
+Application code and cloud resources are liabilities, not assets. Every piece of infrastructure increases your potential attack surface and the probability of a breach. In Tea's case, the exposed Firebase bucket was described as a legacy resource, meaning it was no longer in active use for new users, but still contained data from past users. If a service or storage location is no longer part of your production environment, it should be decommissioned as soon as possible.
+
+---
+
+{{< newsletter >}}
+
+---
