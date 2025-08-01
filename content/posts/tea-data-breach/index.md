@@ -5,17 +5,17 @@ title = "Tea App Data Breach: Learning From Gross Incompetence"
 categories = ['Software Engineering', 'Security', 'Data Breach']
 +++
 
-In July 2025, **Tea** - an app that enables women to perform collective background checks on men by posting their prospective male dates' personal information within the app without their consent, suffered a major data leak.
+In July 2025, **Tea** - an app that enables women to perform collective background checks on prospective dating partners, suffered a major data leak.
 
-Irony of the situation aside, this was a significant data breach that exposed the personal information of thousands of women. In total, over 59 GB of data leaked, including 72,000 images, 13,000 of which were selfies or photo IDs. Many of the leaked images contained **Exif** data: metadata about the images, containing information such as the location of the person at the time the photo was taken.
+This was a significant data breach that exposed the personal information of thousands of women. In total, over 59 GB of data leaked, including 72,000 images, 13,000 of which were selfies or photo IDs. Many of the leaked images contained **Exif** data: metadata about the images, containing information such as the location of the person at the time the photo was taken.
 
-Using the leaked data an interactive dashboard has since been produced, enabling users to explore the locations at which the images were taken. Another site enables users to rank the attractiveness of Tea's leaked userbase, including a public ranking system.
+Using the leaked data an interactive dashboard has since been produced, enabling users to explore the locations at which the images were taken. An additional site surfaced that exploited the leaked images for non-consensual attractiveness rankings, highlighting further privacy concerns.
 
 The initial breach was rapidly followed by a second, when a researcher at [404Media](https://www.404media.co/a-second-tea-breach-reveals-users-dms-about-abortions-and-cheating/) reported that they were able to access more than 1.1 million private messages between users of the app, many of which included personally identifiable information. It was so bad that Tea [disabled DM functionality](https://www.404media.co/tea-app-turns-off-dms-after-exposing-messages-about-abortions-cheating/).
 
 ### How the Leaks Occurred
 
-A combination of user identification requirements, breaches of Tea's own data privacy policy, and a complete lack of understanding of the most basic security principles by the app developer caused this leak. The last point isn’t that surprising, given Sean Cook, founder of the app, proudly notes his six-month coding boot camp on [LinkedIn](https://www.linkedin.com/in/seancook1/).
+A combination of user identification requirements, breaches of Tea's own data privacy policy, and a complete lack of understanding of the most basic security principles by the app developer caused this leak.
 
 To use the application, a user must verify they are indeed a woman by uploading a selfie or photo identification. The extract below is taken directly from Tea's [privacy policy](https://www.teaforwomen.com/privacy):
 
@@ -33,7 +33,7 @@ The second leak is more interesting and appears to have been caused by a failure
 
 ### Lessons From This
 
-The security oversights demonstrated by the Tea team are amateurish and negligent. Fortunately, preventing something like this in your own applications is relatively straightforward.
+The security oversights demonstrated by the Tea team exhibited significant negligence and an inadequate understanding of essential security principles. Fortunately, preventing something like this in your own applications is relatively straightforward.
 
 #### 1 - Enforce Policies & Encrypt Your Data
 
