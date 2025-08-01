@@ -5,9 +5,11 @@ title = "Tea App Data Breach: Learning From Gross Incompetence"
 categories = ['Software Engineering', 'Security', 'Data Breach']
 +++
 
-In July 2025, **Tea** - an app that enables women to perform collective background checks on men by posting their prospective male dates' personal information, without the individual's knowledge or consent, suffered a major data leak.
+In July 2025, **Tea** - an app that enables women to perform collective background checks on men by posting their prospective male dates' personal information within the app without their consent, suffered a major data leak.
 
-Irony of the situation aside, this was a significant data breach that exposed the personal information of thousands of women. In total, over 59 GB of data was leaked, including 72,000 images, 13,000 of which were selfies or photo IDs, and 59,000 images from within the app.
+Irony of the situation aside, this was a significant data breach that exposed the personal information of thousands of women. In total, over 59 GB of data leaked, including 72,000 images, 13,000 of which were selfies or photo IDs. Many of the leaked images contained **Exif** data: metadata about the images, containing information such as the location of the person at the time the photo was taken.
+
+Using the leaked data an interactive dashboard has since been produced, enabling users to explore the locations at which the images were taken. Another site enables users to rank the attractiveness of Tea's leaked userbase, including a public ranking system.
 
 The initial breach was rapidly followed by a second, when a researcher at [404Media](https://www.404media.co/a-second-tea-breach-reveals-users-dms-about-abortions-and-cheating/) reported that they were able to access more than 1.1 million private messages between users of the app, many of which included personally identifiable information. It was so bad that Tea [disabled DM functionality](https://www.404media.co/tea-app-turns-off-dms-after-exposing-messages-about-abortions-cheating/).
 
@@ -50,6 +52,12 @@ Your backend should not only authenticate users but also verify that each reques
 #### 3 - Tie Up Loose Ends
 
 Application code and cloud resources are liabilities, not assets. Every piece of infrastructure increases your potential attack surface and the probability of a breach. In Tea's case, the exposed Firebase bucket was described as a legacy resource, meaning it was no longer in active use for new users, but still contained data from past users. If a service or storage location is no longer part of your production environment, it should be decommissioned as soon as possible.
+
+#### 4 - Storing Images? Strip Out Exif Data
+
+If your application stores user uploaded images, it’s crucial to consider whether you have a valid reason to retain the associated Exif data. Exif data includes sensitive metadata such as GPS coordinates, timestamps, and device details.
+
+Unless your application requires this information for its functionality, you should strip out all Exif data before storing or displaying the images. Otherwise, can expose your users to security risks, as was the case with the Tea userbase.
 
 ---
 
