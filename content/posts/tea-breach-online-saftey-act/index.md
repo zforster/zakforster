@@ -23,9 +23,9 @@ The responsibility to ensure that any third-party services comply with relevant 
 
 If statements like these are all the platforms have to rely on, how can they be sure the services are secure?
 
-Smaller platforms may not be able to absorb the cost of verification services or struggle to vet the provider sufficiently. This may lead to an increase in the number of platforms either leaving the UK market or deciding to 'roll their own verification service', the latter being more worrying given the increased prominence of vibe-coded platforms and the glaring security holes often left by AI-generated code.
+Smaller platforms may not be able to absorb the cost of verification services or struggle to vet the provider sufficiently. This may lead to an increase in the number of platforms either leaving the UK market or deciding to 'roll their own verification service', the latter being more worrying given the increased prominence of vibe-coded platforms and the glaring security holes often left by AI generated code.
 
-The Act places immense trust in third-party age verification systems. We are seemingly supposed to trust that these services will safeguard our most sensitive personal data. But after incidents like the Tea app data leak, will you be trusting your private information to unvetted providers? 
+The Act places immense trust in third party age verification systems. We are seemingly supposed to trust that these services will safeguard our most sensitive personal data. But after incidents like the Tea app data leak, will you be trusting your private information to unvetted providers? 
 
 ---
 
