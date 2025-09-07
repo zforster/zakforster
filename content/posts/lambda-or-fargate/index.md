@@ -11,7 +11,7 @@ All applications require a layer of compute in order to process, transform and s
 
 The launch of cloud computing and services such as [EC2](https://aws.amazon.com/ec2/) removed the need to physically acquire hardware. This however, did not remove the need to patch and maintain those virtual servers.
 
-The introduction of [serverless](https://aws.amazon.com/serverless/) fundamentally changed the way compute was provisioned. Serverless solutions abstract away both server maintenance and capacity planning, allowing engineers to focus on the code to solve a particular business problem, rather than the supporting infrastructure. Despite the name, applications using serverless architectures still run on virtual servers; we as engineers are simply abstracted away from those instances.
+The introduction of [serverless](https://aws.amazon.com/serverless/) fundamentally changed the way compute is provisioned. Serverless solutions abstract away both server maintenance and capacity planning, allowing engineers to focus on the code to solve a particular problem, rather than the supporting infrastructure. Despite the name, applications using serverless architectures still run on virtual servers; we as engineers are simply abstracted away from those instances.
 
 ## What Is AWS Fargate?
 
@@ -29,7 +29,7 @@ To run an application with Fargate, the following components are required:
 
 #### ECS Cluster
 
-- An [ECS Cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html) is a logical grouping of tasks and services that run your application. It defines the boundary within which tasks or services are executed. For instance, you could run distinct **dev**, **test** and **prod** environments as separate clusters, or run two different workloads such as a web API and a front-end within two different clusters.
+- An [ECS Cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html) is a logical grouping of tasks and services that run your application. It defines the boundary within which tasks or services are executed. For instance, you could run distinct **dev**, **test** and **prod** environments as separate clusters, or decide to run a web API and a front-end within different clusters.
 
 #### Task Definition
 
@@ -43,7 +43,7 @@ To run an application with Fargate, the following components are required:
 
 - When running a service such as an API, it is important to maintain a minimum number of instances that are always available to respond to requests. This is what the [ECS Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html) achieves. The service ensures we have a desired number of tasks running at all times; if a task was to exit or fail, the service will automatically restart it in an attempt to auto-heal.
 
-- The secondary function of the service is to handle application scaling; it is here that we attach auto-scaling policies that can automatically provision more task instances to meet compute demand based on CPU or memory usage metrics.
+- The secondary function of the service is to handle application scaling; it is here that we attach auto-scaling policies that can automatically provision more task instances to meet user compute demand based on CPU or memory usage metrics.
 
 ## What Is AWS Lambda?
 
