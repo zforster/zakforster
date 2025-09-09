@@ -43,7 +43,7 @@ To run an application with Fargate, the following components are required:
 
 - The secondary function of the service is to handle application scaling; it is here that we attach auto-scaling policies that can automatically provision more task instances to meet user compute demand based on CPU or memory usage metrics.
 
-## Introducing AWS Lambda?
+## Introducing AWS Lambda
 
 [AWS Lambda](https://aws.amazon.com/lambda/) is a serverless compute engine that runs a function in response to events. With Lambda, it is feasible to create an **event-driven architecture**. There are two types of events that can trigger Lambda functions: push events such as HTTP requests and S3 uploads, and pull events that replace the need for polling by fetching from a queue or database stream.
 
