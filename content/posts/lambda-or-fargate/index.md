@@ -5,15 +5,13 @@ title = "AWS Lambda or AWS Fargate: Comparing Serverless Compute Services"
 categories = ['AWS', 'Lambda', 'Fargate', 'Serverless']
 +++
 
-## Introducing Serverless
-
 All applications require a layer of compute in order to process, transform and store data. How this compute is provisioned has evolved over time. Before the advent of cloud computing, it was typical to acquire your own server infrastructure and run applications on-premise. Scaling was typically vertical in nature, meaning bigger, more powerful machines were installed to satisfy compute and database demand.
 
 The launch of cloud computing and services such as [EC2](https://aws.amazon.com/ec2/) removed the need to physically acquire hardware. This however, did not remove the need to patch and maintain those virtual servers.
 
 The introduction of [serverless](https://aws.amazon.com/serverless/) fundamentally changed the way compute is provisioned. Serverless solutions abstract away both server maintenance and capacity planning, allowing engineers to focus on the code to solve a particular problem, rather than the supporting infrastructure. Despite the name, applications using serverless architectures still run on virtual servers; we as engineers are simply abstracted away from those instances.
 
-## What Is AWS Fargate?
+## Introducing AWS Fargate
 
 Fargate is a serverless compute engine that enables you to scale containerised applications. As it operates on containers it is very flexible; Fargate allows you to run any application that you can containerise. This is in contrast with AWS Lambda, which unless you are willing to understand [how to configure a custom runtime](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html), binds you to those that AWS have pre-configured such as Python, NodeJS or Java. As such, if you require the usage of a language outside of those that are officially supported, using Fargate is the clear choice.
 
@@ -45,7 +43,7 @@ To run an application with Fargate, the following components are required:
 
 - The secondary function of the service is to handle application scaling; it is here that we attach auto-scaling policies that can automatically provision more task instances to meet user compute demand based on CPU or memory usage metrics.
 
-## What Is AWS Lambda?
+## Introducing AWS Lambda?
 
 [AWS Lambda](https://aws.amazon.com/lambda/) is a serverless compute engine that runs a function in response to events. With Lambda, it is feasible to create an **event-driven architecture**. There are two types of events that can trigger Lambda functions: push events such as HTTP requests and S3 uploads, and pull events that replace the need for polling by fetching from a queue or database stream.
 
