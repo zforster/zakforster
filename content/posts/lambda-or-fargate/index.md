@@ -95,25 +95,25 @@ Due to the slower scaling speeds, a system utilising Fargate requires some thoug
 
 #### Instance Configuration
 
-Of the two computing methods, Fargate services are more freely configurable. With Fargate, CPU and memory are independent variables, meaning you can configure each, tailoring your service to reflect if it is more CPU or memory intensive.
+Of the two compute engines, Fargate is more freely configurable. With Fargate, CPU and memory are independent variables, meaning you can configure each individually, tailoring your service according to CPU and memory needs.
 
-Lambda is also configurable, but to a lesser extent as CPU and memory configuration is linked. This fact renders Lambda less flexible for workloads needing specific CPU or memory allocations as you cannot tailor the resources specifically. Lambda does not enable the CPU to be altered directly, that option only exists for memory, which can be adjusted from 128 MB to 10 GB. If you increase the memory AWS automatically increases the CPU in proportion, up to a maximum of 6 vCPUs. Roughly each 1,800 MB increase to memory corresponds to an additional 1 vCPU being added to the resourcing. This means to get more compute you need to increase the memory.
+Lambda is also configurable, but to a lesser extent as CPU and memory configuration are linked. Lambda does not enable the CPU to be altered directly. Memory however, can be adjusted from 128 MB to 10 GB. This fact renders Lambda less flexible for workloads needing specific CPU or memory allocations as you cannot tailor the resources specifically. If you increase the memory AWS automatically increases the CPU in proportion, up to a maximum of 6 vCPUs. Roughly each 1.8 GB increase to memory corresponds to an additional 1 vCPU being added to the resourcing; To increase compute you need to increase the memory.
 
-It should also be noted that the total memory and CPU limitations are more restrictive for Lambda than they are on Fargate. For highly intensive tasks, Fargate may be the preferred choice.
+It should also be noted that the total memory and CPU limitations are more restrictive for Lambda than they are on Fargate. Lambda supports a maximum of 6 vCPUs and 10 GB of RAM compared to 16 vCPUs and 120 GB of RAM for Fargate. For CPU or memory intensive tasks, Fargate may be the preferred choice.
 
 #### Response Sizes
 
-When designing your application, consideration should be given to the expected payload sizes you will be returning from your API services. Using Lambda can be incredibly restrictive. If you decide to use an API Gateway and Lambda-based architecture your maximum response size is 6 MB. This is the maximum return size for Lambda. This drops to just 1 MB if you choose to use Lambda with an Application Load Balancer (ALB). Using Lambda without recognising this limitation leads to the implementation of workarounds such as storing the data in S3 and returning it via a pre-signed URL to bypass the Lambda entirely. While this solution works, in a corporate environment using pre-signed URLs may not be possible due to the security considerations they introduce.
+When designing your application, consideration should be given to the expected payload sizes you will be returning from your API services. Using Lambda can be incredibly restrictive. Deciding to use API Gateway and Lambda for your architecture limits the maximum response size to just 6 MB (the maximum return size for Lambda). This drops to just 1 MB if you choose to use Lambda with an Application Load Balancer (ALB). Workarounds exist, a common way to return larger datasets is to store the data in S3 and return it via a pre-signed URL to bypass the Lambda entirely. While this solution works, in a corporate environment using pre-signed URLs may not be possible; it raises security concerns as the URL is accessible via the public internet.
 
 Fargate allows for 10 MB of data when used with API Gateway. When using with an ALB there isn't a size limitation.
 
 ## Summary
 
-AWS Lambda and AWS Fargate are both **serverless compute services** from AWS, but they serve different use cases depending on workload requirements.
+AWS Lambda and AWS Fargate are both **serverless compute engines** that abstract away server management and capacity planning. They share this feature, however serve different use cases depending on workload requirements.
 
-Fargate runs containerised applications without managing servers. It is highly flexible, supports any language that can be containerised, and is well-suited for **long-running, predictable workloads**. Fargate offers configurable CPU and memory, larger image sizes, and no execution time limits. However, scaling is slower (35s–2min), so some **minimum capacity planning** is often necessary.
+Fargate runs containerised applications without managing servers. It is highly flexible, supporting any language that can be containerised, and is well-suited for **long-running, predictable workloads**. Fargate offers configurable CPU and memory, supports larger image sizes, and has no execution time limits. However, scaling is slower and minimum capacity planning is necessary to ensure running instances are not overwhelemed.
 
-Lambda runs functions in response to events, enabling **event-driven architectures**. It is best suited for **short-lived, spiky, unpredictable workloads** with execution durations up to **15 minutes**. Lambda scales instantly per request but can suffer from **cold starts**, especially with larger deployment packages. It is less configurable than Fargate, with CPU tied to memory (max 6 vCPUs and 10 GB RAM), and response sizes are limited (6 MB with API Gateway, 1 MB with ALB).
+Lambda runs functions in response to events. It is best suited for **short-lived, spiky, unpredictable workloads** with execution durations up to 15 minutes. Lambda scales independently per request but can suffers cold starts if no recently invoked Lambdas are available. It is less configurable than Fargate, with CPU tied to memory and response sizes are more limited.
 
 ---
 
