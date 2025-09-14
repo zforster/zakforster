@@ -5,11 +5,11 @@ title = "AWS Lambda or AWS Fargate: Comparing Serverless Compute Services"
 categories = ['AWS', 'Lambda', 'Fargate', 'Serverless']
 +++
 
-All applications require a layer of compute in order to process, transform and store data. How this compute is provisioned has evolved over time. Before the advent of cloud computing, it was typical to acquire your own server infrastructure and run applications on-premise. Scaling was typically vertical in nature, meaning bigger, more powerful machines were installed to satisfy compute and database demand.
+All applications require a layer of compute in order to process, transform and store data. The means by which compute is provisioned has evolved over time; before the advent of cloud computing, it was necessary to acquire physical server infrastructure, and run applications directly onthose machines, a method known as **running on-premise**. 
 
-The launch of cloud computing and services such as [EC2](https://aws.amazon.com/ec2/) removed the need to physically acquire hardware. This however, did not remove the need to patch and maintain those virtual servers.
+The launch of cloud computing and associated services such as [EC2](https://aws.amazon.com/ec2/) removed the need to physically acquire hardware: it could now be rented on demand as was necessary. This however, still came with the obligation to patch and maintain those virtual servers.
 
-The introduction of [serverless](https://aws.amazon.com/serverless/) fundamentally changed the way compute is provisioned. Serverless solutions abstract away both server maintenance and capacity planning, allowing engineers to focus on the code to solve a particular problem, rather than the supporting infrastructure. Despite the name, applications using serverless architectures still run on virtual servers; we as engineers are simply abstracted away from those instances.
+The next leap came with the introduction of [serverless](https://aws.amazon.com/serverless) which fundamentally changed the way compute is provisioned. Serverless solutions abstract away both server maintenance and capacity planning, allowing engineers to focus on the code to solve a particular problem, as opposed to the supporting infrastructure. Despite the name, applications using serverless architectures still run on virtual servers; we as engineers are simply abstracted away from those server instances.
 
 ## Introducing AWS Fargate
 
