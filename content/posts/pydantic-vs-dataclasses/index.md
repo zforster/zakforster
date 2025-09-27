@@ -5,7 +5,7 @@ title = "Pydantic vs Data Classes: Which Should You Use?"
 categories = ['Python', 'Software Engineering', 'Data Modelling']
 +++
 
-The modern software engineer must master the skill of representing real-world entities as objects in our code. This translation process, known as data modelling, defines the structure, rules and relationships of the domain objects within an application.
+The modern software engineer must master the skill of representing real-world entities as objects in code. This translation process, known as data modelling, defines the structure, rules and relationships of the domain objects within an application.
 
 In Python, data can be modelled in various ways, using built-in approaches such as dictionaries, classes and dataclasses, or by employing external packages such as Pydantic. In this article, we explore these methods to help you decide which is most suitable to your project's needs.
 
