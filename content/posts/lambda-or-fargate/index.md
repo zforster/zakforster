@@ -15,7 +15,7 @@ Two popular serverless compute engines are [AWS Fargate](https://aws.amazon.com/
 
 ## Introducing AWS Fargate
 
-Fargate is a serverless compute engine that enables the scaling of containerised applications. As it operates on containers it is very flexible, allowing you to run any application that you can containerise. This is in contrast with AWS Lambda, which unless you are willing to understand [how to configure a custom runtime](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html), binds and limits you to runtimes that AWS has pre-configured such as Python, NodeJS or Java. As such, if you require the usage of a runtime language outside of those that are officially supported by Lambda, using Fargate is the clear choice.
+Fargate is a serverless compute engine that enables the scaling of containerised applications. As it operates on containers it is very flexible, allowing you to run any application that you can containerise. This is in contrast with AWS Lambda, which unless you are willing to understand [how to configure a custom runtime,](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html) binds and limits you to runtimes that AWS has pre-configured such as Python, NodeJS or Java. As such, if you require the usage of a runtime language outside of those that are officially supported by Lambda, using Fargate is the clear choice.
 
 The fact that Fargate runs containers has another advantage in that you can easily migrate an existing containerised application onto the cloud without the need for heavy re-architecting.
 
