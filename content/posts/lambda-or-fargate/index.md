@@ -11,7 +11,7 @@ The launch of cloud computing and associated services such as [EC2](https://aws.
 
 The next technological leap came with the introduction of [serverless](https://aws.amazon.com/serverless) architectures, which fundamentally changed the way modern applications are constructed. Serverless solutions abstract away both server maintenance and capacity planning, allowing engineers to focus on the code to solve a particular problem, as opposed to the supporting infrastructure. Despite the name, applications using serverless architectures still run on virtual servers; we as engineers are simply abstracted away from those server instances.
 
-Two popular serverless compute engines are [AWS Fargate](https://aws.amazon.com/fargate/) and [AWS Lambda](https://aws.amazon.com/lambda/). In this article, we compare and contrast these two compute engines to help you make a more informed decision as to which most suits your project needs.
+Two popular serverless compute engines are [AWS Fargate](https://aws.amazon.com/fargate/) and [AWS Lambda.](https://aws.amazon.com/lambda/) In this article, we compare and contrast these two compute engines to help you make a more informed decision as to which most suits your project needs.
 
 ## Introducing AWS Fargate
 
@@ -61,7 +61,7 @@ When you create a Lambda function, you package your function code into a deploym
 
 The first method is to [deploy your Lambda function as a .zip file](https://docs.aws.amazon.com/lambda/latest/dg/configuration-function-zip.html). This method constrains your application and dependency size significantly; the maximum uncompressed file size of the uploaded zip file is only 250 MB. This may be fine for a smaller function, but one requiring multiple larger dependencies will quickly hit this limit.
 
-If your function exceeds the maximum permitted size you can [create a Lambda function using a container image](https://docs.aws.amazon.com/lambda/latest/dg/images-create.html). This involves building an image and uploading it to ECR. The maximum size constraints are more generous when containerising, with a maximum uncompressed image size of 10 GB permitted per function.
+If your function exceeds the maximum permitted size you can [create a Lambda function using a container image.](https://docs.aws.amazon.com/lambda/latest/dg/images-create.html) This involves building an image and uploading it to ECR. The maximum size constraints are more generous when containerising, with a maximum uncompressed image size of 10 GB permitted per function.
 
 The size restrictions are logical as they reflect the fact that the ideal Lambda function is lightweight, limited in scope and fast to spin up. Having larger file sizes would incur additional I/O overheads upon start-up, leading to a slower cold start, something that doesn't impact Fargate architectures in the same way. If you have particularly large dependencies, you will need to containerise. If your image exceeds the limit, running the image with Fargate is an option, which will be very easy to do given the application is already containerised.
 
@@ -83,7 +83,7 @@ Lambda scales horizontally and independently per request. If a sudden burst of 1
 
 Recently invoked Lambdas stay **warm** for a period of time. If a new request is received within the warm period an initialised environment is immediately available to process the request. If however, a request is received and no warm Lambdas are available in the pool, the execution will be subject to a **cold start**. A cold start is an additional period of latency lasting between 100 ms to 2 seconds, within which AWS will initialise a lightweight [Firecracker VM](https://firecracker-microvm.github.io/) and pull your source code or container image. It is for this reason that it is best to keep Lambda package sizes small as the I/O influences the cold start duration that adds additional latency for the end user.
 
-To avoid cold starts it is possible to provision concurrency, this means you always have a certain number of warm Lambdas available to immediately process a request. This introduces additional cost, and since you are essentially running an instance at all times to avoid the cold start, this could be an indication that Fargate is more suited to your needs.
+To reduce the impact of cold starts, it is possible to provision concurrency. This means you always have a certain number of warm Lambdas available to immediately process a request. However, this introduces additional cost and requires you to predict the typical number of requests you receive in order to provision the correct concurrency. In such cases, it could be argued that Fargate may be more suited to your needs.
 
 Lambda is fully responsive to your traffic patterns, making it a great candidate for spiky, irregular and hard to predict workloads. If no event is received, nothing will run. If a large volume of traffic suddenly arrives, it will scale horizontally to meet the demand.
 
