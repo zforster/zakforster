@@ -5,25 +5,31 @@ title = "Build Rapid AWS Serverless Prototypes with Moto + Python 🚀"
 categories = ['Python', 'Software Engineering', 'Moto', 'AWS']
 +++
 
-## 👋 Introducing Moto
+The majority of applications I build utilise AWS. I value how quickly I can spin up a new database or bucket; it enables me to respond to stakeholder requests rapidly. There are times, however, where I know I will deploy my application on AWS, but I am in an early prototyping stage. At such a stage, deploying real infrastructure isn't necessary.
+
+When prototyping, I build a rough, locally running sample that stakeholders can interact with. My primary objective is to collate early feedback that guides me toward the correct implementation. The key here is speed and iteration. I do not want to be defining and re-defining infrastructure in response to feedback, or paying for services I might throw away tomorrow.
+
+For early stage prototyping I want access to mocked implementations of the AWS services I will eventually use. I have found [Moto](https://docs.getmoto.org/en/latest/) to be an incredibly useful tool for this; it creates mocked implementations of AWS services, keeping momentum to iterate quickly without the overhead of deploying real infrastructure.
+
+## Introducing Moto
 
 [Moto](https://docs.getmoto.org/en/latest/) is a popular Python library used by developers to mock out calls to AWS services. Moto's functionality and ease of use have made it the preferred library for Python engineers seeking to unit test their applications without deploying real resources in AWS.
 
-Moto doesn’t have full coverage of AWS services. However, it is actively developed and supports much of the functionality within many of the most commonly used services. It especially shines for services commonly used in a serverless stack such as DynamoDB and S3, with 68% and 72% coverage respectively (at the time of writing). The full list of implementation details are [available here.](https://github.com/getmoto/moto/blob/master/IMPLEMENTATION_COVERAGE.md)
+Moto doesn’t have full coverage of all AWS services. However, it is actively developed and supports much of the functionality within many of the most commonly used services. It especially shines for services commonly used in a serverless stack such as DynamoDB and S3, with 68% and 72% coverage respectively (at the time of writing). The full list of implementation details are [available here.](https://github.com/getmoto/moto/blob/master/IMPLEMENTATION_COVERAGE.md)
 
-## ⚙️ Server Mode
+## Moto Server Mode
 
-While the praise for Moto as a testing library is justified, a lesser known feature, or certainly one I hear less about, is Moto's [server mode.](https://docs.getmoto.org/en/latest/docs/server_mode.html) I believe server mode makes Moto not only a great testing tool, but also a great prototyping tool for serverless applications and a great alternative to SAM CLI, which I found to be clunky and limits you to the [SAM](https://docs.aws.amazon.com/serverless-application-model/) framework.
+A lesser known feature of Moto is [server mode.](https://docs.getmoto.org/en/latest/docs/server_mode.html) Server mode makes Moto not only a great testing tool, but also a great prototyping tool.
 
 The main purpose of server mode is to allow developers to use Moto with any of the official AWS SDKs, not just Python. However, I have found server mode to be useful when looking to rapidly prototype and validate ideas locally.
 
-With server mode, you can rapidly iterate on a local API instance, sharing concepts with stakeholders early on, allowing them to experience something tangible, without the overhead of deploying real infrastructure. I find this perfect for fast-paced working environments where time to deliver is critical; allowing developers to focus on what really matters: the usability and experience the user has with your software.
+With server mode, you can rapidly iterate on a local API instance, sharing concepts with stakeholders early on, allowing them to experience something tangible and provide feedback without the overhead of deploying real infrastructure. I find this perfect for fast-paced working environments where time to deliver is critical and requirements can change.
 
 The great thing about server mode is that unlike the Moto decorators, mocked AWS services are fully decoupled from your locally hosted API instance, meaning the data is persisted across API restarts, eliminating the need to re-seed upon restart, unless of course your data model changes.
 
-## 👀 Exploring a Practical Example
+## Exploring a Practical Example
 
-In the sample use case below, Moto server mode is used as part of a local development environment within a FastAPI application. Rather than calling real AWS services, Moto mocks them, allowing us to run a local DynamoDB instance that we can use to store a collection of user assets.
+In the below example, Moto server mode is used as part of a local development environment within a FastAPI application. Rather than calling real AWS services, Moto mocks them, allowing us to run a local DynamoDB instance that we can use to store a collection of user assets.
 
 ### Installing Moto & Initialising the Server
 
@@ -41,7 +47,7 @@ moto_server -p3000
 
 ### Using Moto Within FastAPI
 
-My main entry point creates a FastAPI server instance bound to port 8000 using uvicorn. Before the server starts, a boto3 DynamoDB client is created, pointed to the Moto server instance created above. The default endpoint_url has been replaced with `http://localhost:3000`, this is to tell the client to use the local Moto server, not real AWS services.
+My main entry point creates a FastAPI server instance bound to port 8000 using uvicorn. Before the server starts, a boto3 DynamoDB client is created, pointed to the Moto server instance created above. The default endpoint_url has been replaced with `http://localhost:3000`. This is to tell the client to use the local Moto server, not real AWS services.
 
 Once we have our client, an in-memory table `AssetBasket` is created inside of our local Moto server instance. I've wrapped this in a `try / except` block as if I was to restart the FastAPI server whilst Moto server was running, a `botocore` exception would be raised as the table already exists on the server instance.
 
@@ -55,7 +61,7 @@ if __name__ == "__main__":
         dynamodb = boto3.client(
             "dynamodb",
             "eu-west-1",
-            endpoint_url="http://localhost:3000",
+            endpoint_url="http://localhost:3000",  # mocked Moto instance
         )
         table = dynamodb.create_table(
             TableName="AssetBasket",
@@ -156,7 +162,7 @@ As expected, our data was added to the database, and we receive the response;
 }
 ```
 
-## 📝 Summary
+## Summary
 
 Moto's server mode provides developers with a means to rapidly prototype API services without needing to deploy real AWS cloud resources. Whilst Moto is not a replacement for dedicated user testing environments, it is perfect for cases where you need to iterate fast and validate ideas early. 
 
