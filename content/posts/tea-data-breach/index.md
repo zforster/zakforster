@@ -11,13 +11,13 @@ This was a significant data breach that exposed the personal information of thou
 
 Using the leaked data an interactive dashboard has since been produced, enabling users to explore the locations at which the images were taken. An additional site surfaced that exploited the leaked images for non-consensual attractiveness rankings, highlighting further privacy concerns.
 
-The initial breach was rapidly followed by a second, when a researcher at [404Media](https://www.404media.co/a-second-tea-breach-reveals-users-dms-about-abortions-and-cheating/) reported that they were able to access more than 1.1 million private messages between users of the app, many of which included personally identifiable information. It was so bad that Tea [disabled DM functionality](https://www.404media.co/tea-app-turns-off-dms-after-exposing-messages-about-abortions-cheating/).
+The initial breach was rapidly followed by a second, when a researcher at [404Media](https://www.404media.co/a-second-tea-breach-reveals-users-dms-about-abortions-and-cheating/) reported that they were able to access more than 1.1 million private messages between users of the app, many of which included personally identifiable information. It was so bad that Tea [disabled DM functionality.](https://www.404media.co/tea-app-turns-off-dms-after-exposing-messages-about-abortions-cheating/)
 
 ### How the Leaks Occurred
 
 A combination of user identification requirements, breaches of Tea's own data privacy policy, and a complete lack of understanding of the most basic security principles by the app developer caused this leak.
 
-To use the application, a user must verify they are indeed a woman by uploading a selfie or photo identification. The extract below is taken directly from Tea's [privacy policy](https://www.teaforwomen.com/privacy):
+To use the application, a user must verify they are indeed a woman by uploading a selfie or photo identification. The extract below is taken directly from Tea's [privacy policy:](https://www.teaforwomen.com/privacy)
 
 > During the registration process, users are required to submit a selfie photo for verification purposes. This photo is securely processed and stored only temporarily and will be deleted immediately following the completion of the verification process.
 
@@ -39,7 +39,7 @@ The security oversights demonstrated by the Tea team exhibited significant negli
 
 The bucket was misconfigured, left publicly accessible and unencrypted. To counter this, perform an audit of your cloud resources, ensuring each resource has the appropriate policies applied so that only your calling service can GET or PUT data. Ensure public access is disabled.
 
-Using tools like [AWS KMS](https://aws.amazon.com/kms/), you can encrypt the data within your buckets at rest, ensuring only authorised services or roles can encrypt or decrypt it. This adds another layer of protection - even if the bucket were mistakenly made public, an attacker wouldn’t necessarily be able to read the data without access to the decryption keys or the ability to edit the key policy.
+Using tools like [AWS KMS,](https://aws.amazon.com/kms/) you can encrypt the data within your buckets at rest, ensuring only authorised services or roles can encrypt or decrypt it. This adds another layer of protection - even if the bucket were mistakenly made public, an attacker wouldn’t necessarily be able to read the data without access to the decryption keys or the ability to edit the key policy.
 
 KMS also supports audit logging via AWS CloudTrail, allowing you to track which principals access or attempt to decrypt data.
 
