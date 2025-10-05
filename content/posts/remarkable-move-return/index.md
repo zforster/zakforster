@@ -1,5 +1,5 @@
 +++
-date = "2025-09-28T12:23:00+01:00"
+date = "2025-10-05T12:23:00+01:00"
 draft = true
 title = "Why I'm Returning The Remarkable Paper Pro Move"
 categories = ['remarkable', 'paper pro move']
@@ -17,38 +17,45 @@ After experiencing the Remarkable 2, I had high hopes for the Move. I quickly ca
 
 ### The Battery Life
 
-Remarkable advertises the Move to have a battery life that [lasts for up to two weeks.](https://remarkable.com/products/remarkable-paper/pro-move) In my experience with the device, this is misleading and un-realistic. I typically get four to five hours of usage out of the Remarkable Move. In stand-by the power draw is minimal and does not train. However, once used it drains quickly; I have found the battery to drop by as much as 10% in half an hour of usage. The battery drain has been dreadful - more aligned to my iPhone than to my other e-ink devices. I primarily read e-pub files and take notes, with the front-light off and the Wi-Fi disabled. 
+Remarkable advertises the Move to have a battery life that [lasts for up to two weeks.](https://remarkable.com/products/remarkable-paper/pro-move) In my experience with the device, this claim is misleading and un-realistic. I typically get four to five hours of active use out of the Move. I have found the battery to drop by as much as 10% within half an hour of use - I had been using the device to read and take notes in black ink, with the WiFi disabled and backlight off. The battery drain is more aligned to my iPhone than to other e-ink devices.
 
-I'm used to e-ink devices having great battery life, my previously mentioned 2016 8th Generation Kindle still posts an impressive battery life even after approaching almost a decade of usage, only needing a charge roughly once every couple of weeks. The Remarkable 2 has great battery life, typically lasting me around two weeks between charges - given the marketing and the previously fantastic experience with the Remarkable 2 device, I was expecting similar results with the Move. 
+Other e-ink devices I have used have great battery life, my afformentioned Kindle still posts an impressive battery life after almost a decade of use, only needing a charge once every one to two weeks depending on usage, far outperforming the Move. The Remarkable 2 has great battery life, easily lasting a week between charges despite daily usage. I was expecting similar results with the Move.
 
-For a premium device that has cost £439 in total with the case, I find this un-acceptable, especially since the device is designed to be on the go, where you may not have access to a charger such as a long coach or plane journey. In this aspect I feel the team have over-promised and under delivered. 
+The Move is a premium device with a premium price tag - at this price range I find the battery life un-acceptable. For a device designed to be used on the go, I'm not confident it would last a long coach or plane journey. It is my hope that this is a teething issue that can be ironed out by software updates, we shall see. 
 
 ### E-Reader Performance
 
-The move's form factor should lend itself to being a good e-reading device. The experience reading on the device is OK, but certainly not great. 
+In the Move, I had hoped for a device that could become my main e-reader, I was looking to take detailed notes on teh books I read. The Move does an OK job at being an e-reader, but certainly nothing move.
 
-Page navigation is sluggish and sometimes un-responsive, requring multiple gestures to successfully get the page to turn. Unlike the Kindle, once an annotation or highlight is made onto the text, you can not adjust the font size or formatting. Doing so causes the annotations to stay in the place they previously were; they do not move with the text. Changing font size itself is sluggish, with the entire document having to re-process. Navigating through a e-pub isn't seemless, there's no means to quick scroll across the document as there is with the Kindle. 
+In comparison to my Kindle, page navigation is rather un-responsive, sometimes requring multiple gestures to ensure the page turns successfully. Once an annotation or highlight is made onto the text, you can not adjust the font size or formatting as the annotations stay in place, not moving with the text. Changing font size or formatting is also sluggish, the entire document has to re-process which takes time to complete. 
 
-I find the experience reading on the Kindle far more pleasant. Given the execellent battery life on the Kindle, I have no battery anxiety either, and can be condifent the device will last until I reach the destination. 
+The Kindle is a dedicated reading device, it is no suprise that I find the experience reading on the Kindle far more pleasant. Using the pen to highlight text when standing or moving in impractical, Steve Jobs was correct to dislike the idea of the stylus. If you are looking for a hybrid reading and writing device, this isn't it. I have since returned to using the Kindle. Additionally, given the execellent battery life on the Kindle, I can be condifent the device will last until I reach my destination. 
 
 ### The Size
 
-The Kindle is generally pocketable. the move fits into my Jacket pocket, which I often wear given I live in London. On warmer days however, without a jacket, you will need a small bag or backpack to carry the Move; the additional hight of the Move makes it stick out of any pocket. If I'd have to carry a bag, I could just take the Remarkable 2. 
+The sizing of the Move is awkward - too large to fit in a trouser pocket, therefore requiring a large jacket pocket, or bag to transport it in. Since it requires a bag I could just as easily bring the larger Remarkable 2 on my journey. Again, when comparing to the Kindle, which generally fits into the majority of my trouser pockets, the Move can feel just as burdensome to take on the go as its larger sibling does.
+
+The additional height and uncovnentional aspect ratio leads to PDFs being difficult to read in portrait move. You can use landscape, but this requires the use of scrolling, meaning more strange flashes on the screen as it refreshes and an even faster drain of the battery.
 
 ### The Subscription 
 
-Given the price of the device, the subscription model to access cloud features leaves me with a sour taste. Files stop syncing after 50 days of usage. This doesn't sit well with me; I feel they should offer an Apple like model with free limited storage, and offer a subscription model to increase the storage. 
+I can understand why Remarkable charges for the cloud services it provides; syncing is seeemless, the mobile and desktop applications are superb. However, given the cost of the device, charging for something as basic as maintaining the ability to sync older documents that haven't been used in 50 days leaves a sour taste, espeically when considering that competitors such as Supernote are not charging for their services. I would like to see the Remarkable team follow an iCloud like offering, with a free tier, followed by various paid tiers depending on the storage requirements you have. 
 
 ### Colour Isn't Necessary
 
-The colour feels like a gimmick. I tend to write in black ink all the time as it avoids the additional refreshes that tend to occur when using colour. I feel the device would function fine as a greyscale device; I've never wanted colour when using the Remarkable 2. The display has a grey colour. The yellow ghosting effect before the refresh is complete. 
+The Remarkable Move uses the Gallery 3 panel for its display, which offers customers the ability to use colour. The display seems un-ready for use in a consumer product - in use, it seems to continously blink and flash at you as you navigate, scroll or write, yellow artifacts are common, and it takes time to settle to represent the image correctly. I tend to avoid the use of colour on the device to avoid these artifacts - colour is more of a novetly, the lack of colour in the Remarkable 2 is something I prefer, the display being more stable and enjoyable to use, not suffering from the same artifacts, and completing refreshes quickly.
 
+Given the purpose of the device, to take notes on the move I question if colour is necessary - a black and white version of the Move with a lower price and more performant battery is something I would take over this iteration of the Move.
 
 ### The Writing Experience 
 
-I prefer the writing experience on the Remarkable 2. The additional space tends to improve productivity, as opposed to trying to cram notes into the smaller screen. It feels as though the Move is designed to be a companion device rather than a stand-alone offering. Compared to the RM2, the Move's screen feels spippery to write on. It doesn't have that pencil on paper like feel, I am aware I'm writing on a glass panel. 
+I have a preference for the writing experience on the Remarkable 2. The additional screen size tends to improve productivity, as opposed to trying to cram notes onto the smaller screen. The Move seems to be designed as a companion device rather than a stand-alone offering; a place to jot a quick note or thought in the moment, for later expansion on a computer or largeer screened Remarkable. In a situation where I want to do deep work, I wouldn't use the Move. 
 
-In summary I had high hopes for the Move, envisaging a device that could combine my Remarkable 2 and Kindle together into a smaller portable package. I am left with a device that isn't quite as good as either stand-alone device. For reading, I prefer using the dedicated Kindle, and for writing I prefer the experience on the Remarkable 2; the intentionality of sitting at a desk to write, rather than trying to write on a busy commuter train. 
+## Summary
+
+I had high hopes for the Move, envisaging a device that could combine the best of the Remarkable 2 and Kindle together into a smaller portable package. In reality, it isn't quite as good as either as stand-alone device. For reading, the Kindle and its ecosystem is far superior, and for writing I prefer the experience on the Remarkable 2 an the associated intentionality of sitting at a desk to write, rather than trying to write on a busy commuter train. 
+
+The Move is a confused device, designed to be used on the go, with a battery life more suited to a desk environment with immediate access to a charger, it is too large to carry in a pocket, with a screen too small to be used for serious productivity. Through their clever advertising, in my opinion, the Move is a device that has over promises and under delivers. It is for these reasons that I am returning the device.
 
 ---
 
