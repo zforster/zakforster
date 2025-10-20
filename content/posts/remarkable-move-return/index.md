@@ -25,8 +25,6 @@ This is not an isolated problem; in fact, the lacklustre battery life is a commo
 
 The battery life is contradictory to reMarkable's messaging that the device is ***made for work on the move***, away from an external power source. A lengthy coach or plane journey would be too much for a single charge to handle. I hope this is a teething issue that can be corrected by software updates, but so far reMarkable have said nothing on the matter.
 
-Ironically, for a device designed to foster focus, the constant need to recharge becomes another distraction.
-
 ### E-Reading Experience
 
 The ability to read e-pub files and take notes on the content within a single device was the main factor in my purchase. I had considered that the Move could become my main e-reader and replace my Kindle. After reading on the device, I conclude that while you *can* read on it, it does not rival the experience of using a dedicated e-reader.
