@@ -3,6 +3,8 @@ date = "2025-10-20T19:14:00+01:00"
 draft = false
 title = "Why I'm Returning the reMarkable Paper Pro Move"
 categories = ['reMarkable', 'paper pro move']
+description = "After testing the reMarkable Paper Pro Move, I decided to return it. Here’s my honest review covering battery life, writing experience, e-reading, and why it doesn’t fit my workflow."
+keywords = ["reMarkable Paper Pro Move", "reMarkable Move review", "reMarkable return", "reMarkable battery life", "reMarkable Paper Pro", "reMarkable tablet", "e-ink device review"]
 +++
 
 ### Purchase Rationale
@@ -19,23 +21,23 @@ Despite my initial optimism, I soon discovered that the Move does not fulfil the
 
 ### The Battery
 
-ReMarkable's advertisements claim the Move has a battery life that ***lasts for up to two weeks***. This claim is misleading: four to five hours of total aggregate use over three days is more realistic. In my experience, when reading an e-pub with the Wi-Fi and backlight off, the battery has drained by as much as 10% within half an hour of use. 
+ReMarkable's advertisements claim the Move has a battery life that **_lasts for up to two weeks_**. This claim is misleading: four to five hours of total aggregate use over three days is more realistic. In my experience, when reading an e-pub with the Wi-Fi and backlight off, the battery has drained by as much as 10% within half an hour of use.
 
 This is not an isolated problem; in fact, the lacklustre battery life is a commonly reported issue. Many users within the [r/RemarkableTablet](https://www.reddit.com/r/reMarkableTablet/) subreddit have reported similarly poor battery performance. This has been surprising. The battery is more akin to a smartphone than to other e-ink devices, and significantly worse than the reMarkable 2.
 
-The battery life is contradictory to reMarkable's messaging that the device is ***made for work on the move***, away from an external power source. A lengthy coach or plane journey would be too much for a single charge to handle. I hope this is a teething issue that can be corrected by software updates, but so far reMarkable have said nothing on the matter.
+The battery life is contradictory to reMarkable's messaging that the device is **_made for work on the move_**, away from an external power source. A lengthy coach or plane journey would be too much for a single charge to handle. I hope this is a teething issue that can be corrected by software updates, but so far reMarkable have said nothing on the matter.
 
 ### E-Reading Experience
 
-The ability to read e-pub files and take notes on the content within a single device was the main factor in my purchase. I had considered that the Move could become my main e-reader and replace my Kindle. After reading on the device, I conclude that while you *can* read on it, it does not rival the experience of using a dedicated e-reader.
+The ability to read e-pub files and take notes on the content within a single device was the main factor in my purchase. I had considered that the Move could become my main e-reader and replace my Kindle. After reading on the device, I conclude that while you _can_ read on it, it does not rival the experience of using a dedicated e-reader.
 
 Page navigation can be unresponsive, sometimes requiring multiple gestures to ensure the page turns successfully. Once an annotation or highlight has been made, you cannot adjust the formatting, as the written material stays in place. Changing the font size or document formatting causes the entire document to reprocess, a sluggish and awkward action in contrast to the Kindle's near-instant formatting changes. These points may seem minor, but each introduces friction into the overall reading experience.
 
-If you are looking for a hybrid reading and writing device, this isn’t it. 
+If you are looking for a hybrid reading and writing device, this isn’t it.
 
 ### The Writing Experience
 
-With the Paper Pro and Paper Pro Move, reMarkable abandoned Wacom EMR in favour of their proprietary active Marker. This gives reMarkable full control over the technology, but I don’t feel this choice was made with the consumer in mind. The active pens need charging; they also prevent consumers from using alternative pens produced by other manufacturers. If lost, you must purchase a new pen from reMarkable. 
+With the Paper Pro and Paper Pro Move, reMarkable abandoned Wacom EMR in favour of their proprietary active Marker. This gives reMarkable full control over the technology, but I don’t feel this choice was made with the consumer in mind. The active pens need charging; they also prevent consumers from using alternative pens produced by other manufacturers. If lost, you must purchase a new pen from reMarkable.
 
 An advantage to the active pen is that the marker tips are harder and more durable than their predecessor, the trade-off being that the writing feel is worse. The hardness of the nib produces an unsatisfying, plasticky tapping sound when placed onto the display. It lacks that satisfying, scratchy, felt-tip texture of the reMarkable 2.
 
@@ -61,7 +63,7 @@ ReMarkable's cloud services and applications are superb. However, given the cost
 
 ### The Display
 
-The Move uses the Gallery 3 display panel with colour support. The display feels unrefined in use; as the colour does not render fully until you stop scrolling, navigating, or writing, it produces a flashing effect once the colour fully renders. The effect is tolerable, but can be distracting and detracts from the experience. Yellow artifacts or ghosting effects are common, especially when scrolling. 
+The Move uses the Gallery 3 display panel with colour support. The display feels unrefined in use; as the colour does not render fully until you stop scrolling, navigating, or writing, it produces a flashing effect once the colour fully renders. The effect is tolerable, but can be distracting and detracts from the experience. Yellow artifacts or ghosting effects are common, especially when scrolling.
 
 Colour is more of a novelty; given the purpose of the device is to take quick notes, I question whether colour is even necessary. For a tool that aims to enable focus, colour feels decorative rather than functional. I avoid using colour altogether to minimise these issues.
 
