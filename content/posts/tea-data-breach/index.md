@@ -3,6 +3,7 @@ date = "2025-07-30T22:24:00+01:00"
 draft = false
 title = "Tea App Data Breach: Learning From Gross Incompetence"
 categories = ['Software Engineering', 'Security', 'Data Breach']
+description = "The Tea app suffered massive data leaks exposing personal images and messages. Learn how misconfigurations and poor security practices caused this breach."
 +++
 
 In July 2025, **Tea** - an app that enables women to perform collective background checks on prospective dating partners, suffered a major data leak.

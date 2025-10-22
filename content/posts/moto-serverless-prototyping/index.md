@@ -3,6 +3,7 @@ date = "2025-06-29T20:00:00+01:00"
 draft = false
 title = "Build Rapid AWS Serverless Prototypes with Moto + Python 🚀"
 categories = ['Python', 'Software Engineering', 'Moto', 'AWS']
+description = "Learn how to rapidly prototype AWS serverless applications using Moto and Python. Mock AWS services locally for fast iteration without deploying real infrastructure."
 +++
 
 The majority of applications I build utilise AWS. I value how quickly I can spin up a new database or bucket; it enables me to respond to stakeholder requests rapidly. There are times, however, where I know I will deploy my application on AWS, but I am in an early prototyping stage. At such a stage, deploying real infrastructure isn't necessary.
@@ -142,6 +143,7 @@ That's all the setup we need to do, from there we can call functions within our 
 We now have our Moto server initialised, our mocked table created, and our FastAPI instance running with our `/asset` handler. We can now `POST` some data to our API and have it saved to our mock table.
 
 #### Calling the API
+
 ```bash
 curl -X POST http://127.0.0.1:8000/asset/ \
   -H "Accept: application/json" \
@@ -164,7 +166,7 @@ As expected, our data was added to the database, and we receive the response;
 
 ## Summary
 
-Moto's server mode provides developers with a means to rapidly prototype API services without needing to deploy real AWS cloud resources. Whilst Moto is not a replacement for dedicated user testing environments, it is perfect for cases where you need to iterate fast and validate ideas early. 
+Moto's server mode provides developers with a means to rapidly prototype API services without needing to deploy real AWS cloud resources. Whilst Moto is not a replacement for dedicated user testing environments, it is perfect for cases where you need to iterate fast and validate ideas early.
 
 With Moto you can quickly build small, focused experiments and demonstrations that help facilitate conversations about the direction of the product you are building. In a world where delayed feedback often means building the wrong thing, that is something I believe is very powerful.
 

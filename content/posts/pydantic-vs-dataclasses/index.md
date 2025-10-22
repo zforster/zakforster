@@ -3,6 +3,7 @@ date = "2025-06-22T20:00:47+01:00"
 draft = false
 title = "Pydantic vs Data Classes: Which Should You Use?"
 categories = ['Python', 'Software Engineering', 'Data Modelling']
+description = "Compare Pydantic models and Python data classes. Learn when to use each for validation, type safety, serialization, and maintainable data modelling."
 +++
 
 The modern software engineer must master the skill of representing real-world entities as objects in code. This translation process, known as data modelling, defines the structure, rules and relationships of the domain objects within an application.
@@ -11,7 +12,7 @@ In Python, data can be modelled in various ways, using built-in approaches such 
 
 ## 🐍 Python Dictionaries
 
-Python's built-in type [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) provides software engineers with a basic method of data representation. As we gain more experience with Python, we come to realise the limitations associated with the dictionary type and the impact it has on the maintainability of the systems we create. 
+Python's built-in type [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) provides software engineers with a basic method of data representation. As we gain more experience with Python, we come to realise the limitations associated with the dictionary type and the impact it has on the maintainability of the systems we create.
 
 If we are looking to create professional and maintainable projects, we should leave the dictionary behind and seek alternate methods of data modelling. The dictionary suffers from these key issues:
 
