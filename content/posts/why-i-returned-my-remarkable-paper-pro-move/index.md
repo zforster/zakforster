@@ -4,7 +4,6 @@ draft = false
 title = "Why I'm Returning the reMarkable Paper Pro Move"
 categories = ['reMarkable', 'paper pro move']
 description = "After testing the reMarkable Paper Pro Move, I decided to return it. Here’s my honest review covering battery life, writing experience, e-reading, and why it doesn’t fit my workflow."
-keywords = ["reMarkable Paper Pro Move", "reMarkable Move review", "reMarkable return", "reMarkable battery life", "reMarkable Paper Pro", "reMarkable tablet", "e-ink device review"]
 +++
 
 ### Purchase Rationale
