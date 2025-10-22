@@ -3,6 +3,7 @@ date = "2025-09-07T15:00:00+01:00"
 draft = false
 title = "AWS Lambda or AWS Fargate: Comparing Serverless Compute Services"
 categories = ['AWS', 'Lambda', 'Fargate', 'Serverless']
+description = "Compare AWS Lambda and AWS Fargate. Two powerful serverless compute options from Amazon Web Services. Learn which is best for your use case based on performance, scalability, cost, and configuration flexibility."
 +++
 
 All applications require a layer of compute in order to process, transform and store data. The means by which compute is provisioned has evolved over time; before the advent of cloud computing, it was necessary to acquire physical server infrastructure, and run applications directly on those machines, a method known as **running on-premise**.
