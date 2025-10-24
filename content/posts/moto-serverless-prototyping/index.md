@@ -6,13 +6,13 @@ categories = ['Python', 'Software Engineering', 'Moto', 'AWS']
 description = "Learn how to rapidly prototype AWS serverless applications using Moto and Python. Mock AWS services locally for fast iteration without deploying real infrastructure."
 +++
 
+## Why Use Moto?
+
 The majority of applications I build utilise AWS. I value how quickly I can spin up a new database or bucket; it enables me to respond to stakeholder requests rapidly. There are times, however, where I know I will deploy my application on AWS, but I am in an early prototyping stage. At such a stage, deploying real infrastructure isn't necessary.
 
 When prototyping, I build a rough, locally running sample that stakeholders can interact with. My primary objective is to collate early feedback that guides me toward the correct implementation. The key here is speed and iteration. I do not want to be defining and re-defining infrastructure in response to feedback, or paying for services I might throw away tomorrow.
 
 For early stage prototyping I want access to mocked implementations of the AWS services I will eventually use. I have found [Moto](https://docs.getmoto.org/en/latest/) to be an incredibly useful tool for this; it creates mocked implementations of AWS services, keeping momentum to iterate quickly without the overhead of deploying real infrastructure.
-
-## Introducing Moto
 
 [Moto](https://docs.getmoto.org/en/latest/) is a popular Python library used by developers to mock out calls to AWS services. Moto's functionality and ease of use have made it the preferred library for Python engineers seeking to unit test their applications without deploying real resources in AWS.
 

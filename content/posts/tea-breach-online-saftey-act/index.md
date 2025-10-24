@@ -14,7 +14,7 @@ The Act's stated goal, to protect children from harmful content is commendable. 
 
 In total, over 59 GB of data was leaked, including 72,000 images, 13,000 of which were selfies or photo IDs. This had major privacy implications for the individuals impacted by the leak; using the leaked dataset various malicious websites were created, ranging from an interactive dashboard enabling users to explore the locations at which the images were taken, to sites that ranked the individuals in the leak by their attractiveness.
 
-#### Implications For The Online Saftey Act
+### Implications For The Online Saftey Act
 
 The Act itself does not explicitly require that age verification providers enforce any specific security policies. There is no certified list of services that have undergone stringent security screening before they are allowed to handle our highly sensitive data. Many verification processes are outsourced to third parties, the services may be based in a juristiction that doesn't enforce robust data protection processes.
 

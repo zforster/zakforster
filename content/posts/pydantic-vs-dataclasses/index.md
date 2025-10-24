@@ -6,11 +6,13 @@ categories = ['Python', 'Software Engineering', 'Data Modelling']
 description = "Compare Pydantic models and Python data classes. Learn when to use each for validation, type safety, serialization, and maintainable data modelling."
 +++
 
+## Approaches to Data Modelling Using Python
+
 The modern software engineer must master the skill of representing real-world entities as objects in code. This translation process, known as data modelling, defines the structure, rules and relationships of the domain objects within an application.
 
-In Python, data can be modelled in various ways, using built-in approaches such as dictionaries, classes and dataclasses, or by employing external packages such as Pydantic. In this article, we explore these methods to help you decide which is most suitable to your project's needs.
+In Python, data can be modelled in various ways, using built-in approaches such as dictionaries, classes and dataclasses, or by using external packages such as Pydantic. In this article, we explore these methods to help you decide which is most suitable to your project's needs.
 
-## 🐍 Python Dictionaries
+## Why You Shouldn't Use Dictionaries
 
 Python's built-in type [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) provides software engineers with a basic method of data representation. As we gain more experience with Python, we come to realise the limitations associated with the dictionary type and the impact it has on the maintainability of the systems we create.
 
@@ -52,7 +54,7 @@ position_ticker = position['ticker']  # ✅ Requires knowledge of the structure
 position_ticker = position.ticker  # ❌ Raises AttributeError
 ```
 
-## 🧱 Data Modelling Through Classes
+## Data Modelling Using Classes
 
 As an alternative to the dictionary type, we can define a Python [class](https://docs.python.org/3/tutorial/classes.html) to represent our portfolio position.
 
@@ -70,7 +72,7 @@ position_ticker = p.ticker
 
 In many ways, this is an improvement. We now have our type hints, attribute access and improved static type checking effectiveness. This however is a verbose means of representing data - can we do better?
 
-### Enter Data Classes
+## Data Modelling Using Data Classes
 
 In Python 3.7, the [dataclass](https://docs.python.org/3/library/dataclasses.html) decorator was introduced, significantly reducing the boilerplate needed to model our data as classes. Under the hood, the `dataclass` is a regular Python class. The decorator simply adds the `__init__` function for us, removing the need to explicitly define it and pass the arguments manually.
 
@@ -103,7 +105,7 @@ class Position:
             raise WeightException("Invalid Position Weight")
 ```
 
-### Where Data Classes Fail
+### Data Classes & Run-Time Type Safety
 
 Initialised `dataclass` objects provide type hints, but unless we were to define bespoke logic, the `dataclass` does not enforce type safety at runtime.
 
@@ -128,7 +130,7 @@ p = Position(
 print(type(p.weight))  # <class 'str'>
 ```
 
-## 🛡️ Enter Pydantic
+## Data Modelling Using Pydantic
 
 In [Pydantic,](https://docs.pydantic.dev/latest/) users define models that inherit from `BaseModel`. Unlike `dataclasses` any class inheriting from `BaseModel` will validate the input data to ensure the resulting object conforms to the expected type definitions. `ValidationError` is raised in the event the field does not conform, or cannot be cast to the expected type.
 
@@ -172,7 +174,7 @@ print(type(p.weight))  # <class 'float'>
 
 This behaviour can be disabled by enabling [strict mode.](https://docs.pydantic.dev/latest/concepts/strict_mode/)
 
-### Custom Validation Rules
+### Implementing Custom Validation Rules
 
 With Pydantic we can easily build upon the default validation implementations. To enforce more complex constraints we can use model or field level [validators.](https://docs.pydantic.dev/latest/concepts/validators/)
 
@@ -251,7 +253,7 @@ print(p.model_dump(by_alias=True))
 >> {'portfolioName': 'My Portfolio', 'positions': [{'ticker': 'AAPL', 'weight': 0.5, 'sector': 'Information Technology'}]}
 ```
 
-## 🤔 What Should I Use?
+## Data Classes or Pydantic - Which Is Best For Your Project?
 
 As a general rule, you should not replace all of your `dataclasses` with Pydantic models. In many cases, `dataclasses` are perfectly sufficient. Pydantic should only be used once you encounter a problem that actually requires it, such as implementing complex validation requirements on untrusted data.
 
