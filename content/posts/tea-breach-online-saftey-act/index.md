@@ -15,7 +15,7 @@ In total, over 59 GB of data was leaked, including 72,000 images, 13,000 of whic
 
 #### Implications For The Online Saftey Act
 
-The Act itself does not explicitly require that age verification providers enforce any specific security policies. There is no certified list of services that have undergone stringent security screening before they are allowed to handle our highly sensitive data. Many verification processes are outsourced to third parties, the services may be based in a juristiction that doesn't enforce robust data protection processes. 
+The Act itself does not explicitly require that age verification providers enforce any specific security policies. There is no certified list of services that have undergone stringent security screening before they are allowed to handle our highly sensitive data. Many verification processes are outsourced to third parties, the services may be based in a juristiction that doesn't enforce robust data protection processes.
 
 The responsibility to ensure that any third-party services comply with relevant data protection standards falls to the platform using the verification service. In the case of Tea, its privacy policy stated it would securely process and immediately delete the image following the verification process. The extract below is taken directly from Tea's [privacy policy:](https://www.teaforwomen.com/privacy)
 
@@ -25,10 +25,4 @@ If statements like these are all the platforms have to rely on, how can they be 
 
 Smaller platforms may not be able to absorb the cost of verification services or struggle to vet the provider sufficiently. This may lead to an increase in the number of platforms either leaving the UK market or deciding to 'roll their own verification service', the latter being more worrying given the increased prominence of vibe-coded platforms and the glaring security holes often left by AI generated code.
 
-The Act places immense trust in third party age verification systems. We are seemingly supposed to trust that these services will safeguard our most sensitive personal data. But after incidents like the Tea app data leak, will you be trusting your private information to unvetted providers? 
-
----
-
-{{< newsletter >}}
-
----
+The Act places immense trust in third party age verification systems. We are seemingly supposed to trust that these services will safeguard our most sensitive personal data. But after incidents like the Tea app data leak, will you be trusting your private information to unvetted providers?

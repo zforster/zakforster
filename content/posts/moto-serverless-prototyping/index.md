@@ -142,6 +142,7 @@ That's all the setup we need to do, from there we can call functions within our 
 We now have our Moto server initialised, our mocked table created, and our FastAPI instance running with our `/asset` handler. We can now `POST` some data to our API and have it saved to our mock table.
 
 #### Calling the API
+
 ```bash
 curl -X POST http://127.0.0.1:8000/asset/ \
   -H "Accept: application/json" \
@@ -164,12 +165,6 @@ As expected, our data was added to the database, and we receive the response;
 
 ## Summary
 
-Moto's server mode provides developers with a means to rapidly prototype API services without needing to deploy real AWS cloud resources. Whilst Moto is not a replacement for dedicated user testing environments, it is perfect for cases where you need to iterate fast and validate ideas early. 
+Moto's server mode provides developers with a means to rapidly prototype API services without needing to deploy real AWS cloud resources. Whilst Moto is not a replacement for dedicated user testing environments, it is perfect for cases where you need to iterate fast and validate ideas early.
 
 With Moto you can quickly build small, focused experiments and demonstrations that help facilitate conversations about the direction of the product you are building. In a world where delayed feedback often means building the wrong thing, that is something I believe is very powerful.
-
----
-
-{{< newsletter >}}
-
----

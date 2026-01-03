@@ -36,9 +36,3 @@ Practical changes you've made (or plan to) based on the book. Even better if it'
 ## 🎯 TL;DR in 3 Sentences
 
 Replace the original paragraph idea with this — punchier, cleaner, and more inviting for quick readers.
-
----
-
-{{< newsletter >}}
-
----

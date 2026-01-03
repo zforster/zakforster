@@ -11,7 +11,7 @@ In Python, data can be modelled in various ways, using built-in approaches such 
 
 ## 🐍 Python Dictionaries
 
-Python's built-in type [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) provides software engineers with a basic method of data representation. As we gain more experience with Python, we come to realise the limitations associated with the dictionary type and the impact it has on the maintainability of the systems we create. 
+Python's built-in type [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) provides software engineers with a basic method of data representation. As we gain more experience with Python, we come to realise the limitations associated with the dictionary type and the impact it has on the maintainability of the systems we create.
 
 If we are looking to create professional and maintainable projects, we should leave the dictionary behind and seek alternate methods of data modelling. The dictionary suffers from these key issues:
 
@@ -265,9 +265,3 @@ As a general rule, you should not replace all of your `dataclasses` with Pydanti
 - You can already trust the data is valid, for example when representing internal data structures where data integrity is guaranteed.
 - You have performance considerations; `dataclasses` are generally lighter since they have no runtime validation overhead.
 - If minimising external dependencies is a priority, `dataclasses` are preferable since they are part of the standard library.
-
----
-
-{{< newsletter >}}
-
----
