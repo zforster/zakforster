@@ -61,9 +61,3 @@ Application code and cloud resources are liabilities, not assets. Every piece of
 If your application stores user uploaded images, it’s crucial to consider whether you have a valid reason to retain the associated Exif data. Exif data includes sensitive metadata such as GPS coordinates, timestamps, and device details.
 
 Unless your application requires this information for its functionality, you should strip out all Exif data before storing or displaying the images. Otherwise, can expose your users to security risks, as was the case with the Tea userbase.
-
----
-
-{{< newsletter >}}
-
----

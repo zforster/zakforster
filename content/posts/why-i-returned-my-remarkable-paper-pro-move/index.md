@@ -73,9 +73,3 @@ Colour is more of a novelty; given the purpose of the device is to take quick no
 I had envisaged the Move as a device that could combine the best of the reMarkable 2 and the Kindle into a small, portable package. For reading, the Kindle and its ecosystem are far superior, and for writing, I prefer the experience on the reMarkable 2 with its larger display.
 
 The Move is a confused device; designed for use on the go, yet with a battery life more suited to a desk environment with constant access to a charger. It’s too large to carry in a pocket, yet too small for serious productivity. It over-promises and under-delivers, and I struggle to see where it fits within a focused workflow. Writing is an intentional act, best suited to a quiet desk, not a fleeting moment on the move. In truth, a simple notepad serves that purpose far better and costs a fraction of the price.
-
----
-
-{{< newsletter >}}
-
----

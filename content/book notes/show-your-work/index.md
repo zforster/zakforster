@@ -145,9 +145,3 @@ Reflecting on our inevitable end puts everything else into perspective. When con
 ## ✅ How I’m Using This
 
 This book has given me the gentle push I needed to realise I should share more of my thoughts and expertise online. Ultimately, it has led to the creation of this website, which I intend to fill slowly with things I find interesting or insights I want to share. I don’t have a clear direction for it yet, but I am excited to see where it goes! Thanks for reading ✌️
-
----
-
-{{< newsletter >}}
-
----

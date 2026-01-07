@@ -268,9 +268,3 @@ As a general rule, you should not replace all of your `dataclasses` with Pydanti
 - You can already trust the data is valid, for example when representing internal data structures where data integrity is guaranteed.
 - You have performance considerations; `dataclasses` are generally lighter since they have no runtime validation overhead.
 - If minimising external dependencies is a priority, `dataclasses` are preferable since they are part of the standard library.
-
----
-
-{{< newsletter >}}
-
----

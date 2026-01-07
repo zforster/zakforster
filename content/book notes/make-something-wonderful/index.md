@@ -6,11 +6,3 @@ categories = ['Book Notes', 'Technology', 'Steve Jobs']
 +++
 
 **[✅📘 Grab the Book »](https://stevejobsarchive.com/book/download)**
-
-
-
----
-
-{{< newsletter >}}
-
----

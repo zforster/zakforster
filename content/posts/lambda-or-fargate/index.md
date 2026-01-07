@@ -117,9 +117,3 @@ AWS Lambda and AWS Fargate are both **serverless compute engines** that abstract
 Fargate runs containerised applications without managing servers. It is highly flexible, supporting any language that can be containerised, and is well-suited for **long-running, predictable workloads**. Fargate offers configurable CPU and memory, supports larger image sizes, and has no execution time limits. However, scaling is slower and minimum capacity planning is necessary to ensure running instances are not overwhelmed.
 
 Lambda runs functions in response to events. It is best suited for **short-lived, spiky, unpredictable workloads** with execution durations up to 15 minutes. Lambda scales independently per request but can suffer cold starts if no recently invoked Lambdas are available. It is less configurable than Fargate, with CPU tied to memory and response sizes are more limited.
-
----
-
-{{< newsletter >}}
-
----
