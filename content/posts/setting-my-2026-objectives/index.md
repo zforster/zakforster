@@ -1,5 +1,5 @@
 +++
-date = "2026-01-03T09:43:00"
+date = "2026-01-07T09:43:00"
 draft = false
 title = "Setting My Objectives For 2026"
 categories = ['goals', 'reflection', '2026']
