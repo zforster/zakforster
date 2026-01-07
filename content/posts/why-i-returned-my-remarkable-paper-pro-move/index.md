@@ -3,9 +3,10 @@ date = "2025-10-20T19:14:00+01:00"
 draft = false
 title = "Why I'm Returning the reMarkable Paper Pro Move"
 categories = ['reMarkable', 'paper pro move']
+description = "After testing the reMarkable Paper Pro Move, I decided to return it. Here’s my honest review covering battery life, writing experience, e-reading, and why it doesn’t fit my workflow."
 +++
 
-### Purchase Rationale
+### Why I Bought The Paper Pro Move
 
 Today's world is dominated by technology that diminishes our ability to focus, distracting us from the task at hand. Our devices are loaded with applications that consume our most precious and finite resources: our time, energy, and attention. The ability to apply oneself to difficult and tedious problems with the required intensity has been lost; instead, we reach for the smartphone and the instant gratification it provides.
 
@@ -17,7 +18,7 @@ Despite my initial optimism, I soon discovered that the Move does not fulfil the
 
 ---
 
-### The Battery
+### Poor Battery Performance
 
 ReMarkable's advertisements claim the Move has a battery life that **_lasts for up to two weeks_**. This claim is misleading: four to five hours of total aggregate use over three days is more realistic. In my experience, when reading an e-pub with the Wi-Fi and backlight off, the battery has drained by as much as 10% within half an hour of use.
 
@@ -25,7 +26,7 @@ This is not an isolated problem; in fact, the lacklustre battery life is a commo
 
 The battery life is contradictory to reMarkable's messaging that the device is **_made for work on the move_**, away from an external power source. A lengthy coach or plane journey would be too much for a single charge to handle. I hope this is a teething issue that can be corrected by software updates, but so far reMarkable have said nothing on the matter.
 
-### E-Reading Experience
+### Underwhelming E-Reading Experience
 
 The ability to read e-pub files and take notes on the content within a single device was the main factor in my purchase. I had considered that the Move could become my main e-reader and replace my Kindle. After reading on the device, I conclude that while you _can_ read on it, it does not rival the experience of using a dedicated e-reader.
 
@@ -33,7 +34,7 @@ Page navigation can be unresponsive, sometimes requiring multiple gestures to en
 
 If you are looking for a hybrid reading and writing device, this isn’t it.
 
-### The Writing Experience
+### Writing Experience
 
 With the Paper Pro and Paper Pro Move, reMarkable abandoned Wacom EMR in favour of their proprietary active Marker. This gives reMarkable full control over the technology, but I don’t feel this choice was made with the consumer in mind. The active pens need charging; they also prevent consumers from using alternative pens produced by other manufacturers. If lost, you must purchase a new pen from reMarkable.
 
@@ -47,7 +48,7 @@ Using the marker is not always the most convenient option. We have known this si
 
 He was correct. The marker is great when static, but outside of that environment, a quick highlight using touch is more appropriate.
 
-### The Size
+### Product Dimensions
 
 The Move is too large to fit in a regular pocket, but too small for serious productive work. Unless you have large or deep pockets, the Move can be just as burdensome to travel with as the larger models, since both will require some form of bag. I could just as easily travel with the larger reMarkable 2 in a small bag. The exception being in the colder winter months when the larger pockets of an overcoat will be sufficiently large to fit the Move into.
 
@@ -55,11 +56,11 @@ The unconventional aspect ratio makes it difficult to read PDFs in portrait mode
 
 The Move feels designed as a companion to the larger reMarkable models rather than as a stand-alone product: a place to jot a quick note or thought in the moment for later expansion on a larger screen. When I want to do deep work, I wouldn’t use the Move. I would use the RM2, which has the screen real estate to handle the task without being cumbersome. The smaller screen simply isn’t good for productivity.
 
-### The Subscription Model
+### Subscription Model
 
 ReMarkable's cloud services and applications are superb. However, given the cost of the device, charging for full syncing functionality leaves a sour taste. ReMarkable’s approach makes the device feel less of a value proposition in comparison to its competitors such as Supernote. I would like to see reMarkable offer full syncing functionality with a base level of free storage capacity, followed by various paid tiers depending on storage requirements.
 
-### The Display
+### Colour Display
 
 The Move uses the Gallery 3 display panel with colour support. The display feels unrefined in use; as the colour does not render fully until you stop scrolling, navigating, or writing, it produces a flashing effect once the colour fully renders. The effect is tolerable, but can be distracting and detracts from the experience. Yellow artifacts or ghosting effects are common, especially when scrolling.
 
@@ -67,7 +68,7 @@ Colour is more of a novelty; given the purpose of the device is to take quick no
 
 ---
 
-### Summary
+### In Summary - Why I'm Returning The Device
 
 I had envisaged the Move as a device that could combine the best of the reMarkable 2 and the Kindle into a small, portable package. For reading, the Kindle and its ecosystem are far superior, and for writing, I prefer the experience on the reMarkable 2 with its larger display.
 

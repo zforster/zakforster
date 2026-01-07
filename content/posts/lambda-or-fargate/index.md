@@ -3,7 +3,10 @@ date = "2025-09-07T15:00:00+01:00"
 draft = false
 title = "AWS Lambda or AWS Fargate: Comparing Serverless Compute Services"
 categories = ['AWS', 'Lambda', 'Fargate', 'Serverless']
+description = "Compare AWS Lambda and AWS Fargate. Two powerful serverless compute options from Amazon Web Services. Learn which is best for your use case based on performance, scalability, cost, and configuration flexibility."
 +++
+
+### A Brief History of Serverless Computing
 
 All applications require a layer of compute in order to process, transform and store data. The means by which compute is provisioned has evolved over time; before the advent of cloud computing, it was necessary to acquire physical server infrastructure, and run applications directly on those machines, a method known as **running on-premise**.
 
@@ -13,13 +16,13 @@ The next technological leap came with the introduction of [serverless](https://a
 
 Two popular serverless compute engines are [AWS Fargate](https://aws.amazon.com/fargate/) and [AWS Lambda.](https://aws.amazon.com/lambda/) In this article, we compare and contrast these two compute engines to help you make a more informed decision as to which most suits your project needs.
 
-## Introducing AWS Fargate
+## What Is AWS Fargate?
 
 Fargate is a serverless compute engine that enables the scaling of containerised applications. As it operates on containers it is very flexible, allowing you to run any application that you can containerise. This is in contrast with AWS Lambda, which unless you are willing to understand [how to configure a custom runtime,](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html) binds and limits you to runtimes that AWS has pre-configured such as Python, NodeJS or Java. As such, if you require the usage of a runtime language outside of those that are officially supported by Lambda, using Fargate is the clear choice.
 
 The fact that Fargate runs containers has another advantage in that you can easily migrate an existing containerised application onto the cloud without the need for heavy re-architecting.
 
-### Fargate Components
+### What Components Are Required to Use Fargate?
 
 To run an application with Fargate, the following components are required:
 
@@ -47,7 +50,7 @@ To run an application with Fargate, the following components are required:
 
 - The secondary function of the service is to handle application scaling; it is here that we attach auto-scaling policies that can automatically provision more task instances based on CPU or memory usage metrics, therefore ensuring the application meets the user compute demand.
 
-## Introducing AWS Lambda
+## What Is AWS Lambda?
 
 [AWS Lambda](https://aws.amazon.com/lambda/) is a serverless compute engine that runs a function in response to events. With Lambda, it is feasible to create an **event-driven architecture**. There are two types of events that can trigger the execution of Lambda functions: push events such as HTTP requests or S3 uploads, and pull events that replace the need for polling by fetching from an SQS queue or database stream.
 
@@ -65,7 +68,7 @@ If your function exceeds the maximum permitted size you can [create a Lambda fun
 
 The size restrictions are logical as they reflect the fact that the ideal Lambda function is lightweight, limited in scope and fast to spin up. Having larger file sizes would incur additional I/O overheads upon start-up, leading to a slower cold start, something that doesn't impact Fargate architectures in the same way. If you have particularly large dependencies, you will need to containerise. If your image exceeds the limit, running the image with Fargate is an option, which will be very easy to do given the application is already containerised.
 
-## Comparing Fargate & Lambda
+## Fargate or Lambda - Which Is Best For Your Project?
 
 #### Execution Duration
 

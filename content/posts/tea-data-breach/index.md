@@ -3,7 +3,10 @@ date = "2025-07-30T22:24:00+01:00"
 draft = false
 title = "Tea App Data Breach: Learning From Gross Incompetence"
 categories = ['Software Engineering', 'Security', 'Data Breach']
+description = "The Tea app suffered massive data leaks exposing personal images and messages. Learn how misconfigurations and poor security practices caused this breach."
 +++
+
+### What Happened?
 
 In July 2025, **Tea** - an app that enables women to perform collective background checks on prospective dating partners, suffered a major data leak.
 
@@ -31,7 +34,7 @@ Tea claimed this was a legacy bucket, with newer users handled differently. But 
 
 The second leak is more interesting and appears to have been caused by a failure in the backend to verify that the user was authorised to access a specific resource. It seems that once logged in and authenticated, any user could issue API requests including message IDs or user identifiers that didn’t belong to them. In return, the backend would fetch conversations the user shouldn’t have had access to.
 
-### Lessons From This
+### How Can You Protect Your Applications?
 
 The security oversights demonstrated by the Tea team exhibited significant negligence and an inadequate understanding of essential security principles. Fortunately, preventing something like this in your own applications is relatively straightforward.
 
