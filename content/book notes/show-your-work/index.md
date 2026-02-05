@@ -5,7 +5,7 @@ title = "Show Your Work! (Austin Kleon)"
 categories = ['Book Notes', 'Self Help']
 +++
 
-**[✅📘 Grab the Book on Amazon »](https://amzn.to/44cjatQ)**
+**[✅📘 Grab the Book on Amazon »](https://amzn.to/4bpsz5o)**
 
 ## 🚀 What’s the Theme?
 
