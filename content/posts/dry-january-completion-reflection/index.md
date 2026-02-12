@@ -1,22 +1,24 @@
 +++
-date = "2026-02-01T09:16:00"
+date = "2026-02-09T08:16:00"
 draft = true
-title = "Reflections After One Month Alcohol Free"
+title = "Reflections After 40 Days Alcohol Free"
 categories = ['Dry Janurary', 'Alcohol Free']
 description = "A personal reflection on completing Dry January and spending one month without alcohol."
 +++
 
-At the start of the year, I set myself the objective of completing _Dry January_, the modern phenomenon of abstaining from alcohol for the entire month of January. I did this for a variety of reasons, primarily out of curiosity, to see if I experienced the multitude of benefits many who live an alcohol free lifestyle share online: improved energy levels, better sleep, enhanced mental clarity and consistency of output. As I write this it is the 1st of February 2026, and I have successfully completed the 31 days alcohol free. In this blog, I want to reflect on my experiences over the month and share my renewed perspective on alcohol and its impacts.
+At the start of the year, I set myself the objective of completing _Dry January_, the modern phenomenon of abstaining from alcohol for the entire month of January. I did this for a variety of reasons, primarily out of curiosity, to see if I experienced the multitude of benefits many who live an alcohol free lifestyle report online, notably improved energy levels, better sleep, enhanced mental clarity, and improved consistency of output.
 
-### Reasons for Doing Dry January
+Finding the changes in that month compelling, I chose to extend this experiment beyond its original scope and on into Feburary. As I write this, it is February 9th; today I will complete my 40th day alcohol free. In this blog, I want to reflect on my experiences over that peroid of time, share my renewed perspective on alcohol, and why I'm excited to conitnue this experiment on potentially indefinatley.
+
+### My Reasons for Doing Dry January
 
 #### Evolving Lifestyle and Drinking Habits
 
-Over recent years, as I've hit my mid-to-late twenties, the volume of alcohol I consume has naturally declined. Alcohol simply isn't a big part of my lifestyle. Changing circumstances, primarily driven by positive trends in my career, with associated longer working hours places constraints on the amount of free time I now have. As a result, I place far greater importance and value on the limited free time that I do have, and chose selectivley how to spend it. I want to protect my free time and have no interest spending it in a state of self inflicted misery caused by too many drinks the previous evening.
+Over recent years, as I've hit my mid-to-late twenties, the volume of alcohol I consume has naturally declined. Alcohol simply isn't a big part of my lifestyle. Changing circumstances, primarily driven by positive career developments, involving more responsibilites and longer working hours, placed constraints on the amount of free time I have. As a result, I place far greater value on the limited free time that I do have, and chose selectivley how to spend it. I want to protect my free time and make the most of it. Wasting it in a state of self-inflicted misery caused by too many drinks the previous evening is at odds with this objective.
 
-These evolving lifestyle trends and habits have meant that in recent times, when I have opted to drink, I typically wouldn't exceed three drinks, or simply chose to drink the alcohol free options. Of course there were exceptions to that rule where I would let loose, but entering into 2026, I was already in a place where I could quite happily go without any alcohol on an evening out.
+Entering into 2026, I was already in a place where I would restrict the volume of alcohol I would consume, or quite happily go without any alcohol on an evening out. Finding as much joy in the alcohol free options.
 
-It therefore seemed a natural progression, and a relativley easy one, to commit to cut it out completley for the month, with the goal of evaluating if it was something I wanted to continue on past Janurary (spoiler, it is).
+It therefore seemed a natural progression, and a relativley easy one, to commit to cut it out completley for the month, with the goal of evaluating if it was something I wanted to continue on past Janurary.
 
 #### Prioritising Energy and Focus
 
@@ -70,19 +72,17 @@ optimism
 
 #### True Confidence
 
-For all the criticisms I have levied towards alcohol throughout this article, I do feel alcohol serves a perfectly legitimate purpose within social settings. My theory is that groups of individuals gravitate towards consuming alcoholic drinks together as a form of mutual disarmament, in which everyone's inhebitions are collectivley lowered, placing the group at an equal level of vulnerability. Alcohol being the greater leveler which facilitates honest conversations amongst peers. This effect can be particuarly strong within the corporate world, where power dynamics and heirarchy can soften in the presence of alcohol.
+For all the criticisms I have levied towards alcohol throughout this article, I do feel alcohol serves a perfectly legitimate purpose within social settings. My theory is that groups of individuals gravitate towards consuming alcoholic drinks together as a form of mutual disarmament, in which everyone's inhebitions are collectivley lowered, placing the group at an equal level of vulnerability. Alcohol being the greater leveler which facilitates honest conversations amongst peers.
 
-It is for this reason that I held a fairly strong association between drinking alcohol and the act of being sociable. This association would express itself in various settings. Take the example of attending an event in which many would be meeting new people for the first time, by collectivley drinking, the underyling social anxiety is smoothed over, and the group enters a more relaxed state with flowing conversation. The same applies to the familiar environment, such as with close friends in a pub you frequent often. Having a drink together losens everyone's inhibitions, facilitating bonding.
+This is one of the reasons there is a strong association between being sociable and drinking. This association would express itself in various settings. Take the example of attending an event in which many would be meeting new people for the first time, by collectivley drinking, the underyling social anxiety is smoothed over, and the group enters a more relaxed state with flowing conversation. The same applies to the familiar environment, such as with close friends in a pub you frequent often. Having a drink together losens everyone's inhibitions, facilitating bonding.
 
-Throughout Dry Jan I endevoured to continue living my life just as I normally do, albeit without the alcohol. I felt this was the only way to get a true representative experience of what commiting to an alchol free lifestyle would be like. In essense I was going to be just as socable as normal; visiting pubs with friends, going to the football, going for dates at nice resteraunts with my girlfriend. I didn't want to limit what I would do just because I wouldn't be taking part in the drinking. One of the highlights of the month was attending a birthday party as a plus one it was an environment where I didn't know the majority of people, but removing the alcohol enstilled a true self of confidence where it wasn't a pre-condition in order to socialise.
+Throughout Dry Jan I continued living my social life as I normally do; visiting pubs with friends, going to the football, going for dates at nice resteraunts with my girlfriend. I didn't limit where I would go just because I wouldn't be taking part in the drinking.
 
 > Through the process of going alcohol free you will break the mental link between alcohol and socalisation. _([Clear - James Swanwick](https://amzn.to/4a9cAWG))_.
 
-The above quote from _Clear_ is incredibly pertinant to my experience over the month. I came to realise that you really don't need alcohol to be socialble, and honestly, if you're with the right kind of company, nobody even cares that you're not having an alcholic drink. Besides, the alcohol free beers look identical to the eye. If they do care, that's a big sign that they don't want to be the only one poisioning themselves and are best to be avoided.
+After a month of experiencing life without the alcohol, you being to realise that you don't need it to be socialble and question all the times you've relied on alcohol to project confidence. Besides, if you're with the right kind of company, nobody cares that you're not having an alcholic drink. Besides, the alcohol free beers look identical to the eye. Breaking this link between drinking and being social begins to bring out your true confidence.
 
-> You're never ging to get far when you need a crutch to move forward... You might believe the iquor makes it eaiser to be yourself, but you also need the confidence that you can do it without them. Otherwise you're never going to be in control of your own situation.... No matter what situation or setting you find yourself in, you don't want to depend on anything to make you feel in control and comfortabkle. That confidence should come from within. Not an external source.
-
-Breaking this link gives me hope for the survival of the pub. It's a fact that younger people in the UK are drinking less than their parents did, this could be for health reasons, it could be for the price. Despite my views on British binge drinking culture, I do see the pub is a very important institution and a pillar of the community within British life. I want the pubs to continue to operate, which is proving difficult under the constant anti-hospitality measures, minimum wage increases and poor energy policy the government keeps perusing, contributing to the lack of competitivness of the sector. The pub is one of the few _third spaces_ we have and is vital for the mental wellbeing of our people. In particular, i love exploring the various pubs within the City of London and soaking up the history in these places. Why does it give me hope? I feel the pubs can evolve with the times and place less emphaiss on the presence of alcohol. Going to the pub shouldn't have to be about alcohol, its about the connections between people, which can happen over any drink, be it alcoholic or not.
+> No matter what situation or setting you find yourself in, you don’t ever want to depend on anything—or any other person—to make you feel in control and comfortable. That sense of confidence should always come from within. Not from an external source. _([50 Cent - Hustle Harder, Hustle Smarter](https://amzn.to/4bpsz5o))_.
 
 <!-- #### The Domino Effect
 
