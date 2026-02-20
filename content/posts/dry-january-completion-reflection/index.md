@@ -42,7 +42,7 @@ Adding to the pressure to drink that comes from our peers, we also have cultural
 
 After reading _Clear_, I began to see the societal conditioning around me. Look at any advertisement for an alcoholic drink. In almost all cases, the drink is at the center of some event taking place on a beach or a colourful city, filled with happy people having a great time socialising. They sell the idea that drinking is **the central activity** that binds people together in a social setting, projecting the image that you can't be social without having a drink.
 
-Going alcohol free was my attempt to reset the way in which I view societies relationship with alcohol, and in a small way rebelling against the norms.
+Going alcohol free was my attempt to reset the way in which I view societies' relationship with alcohol, and in a small way rebelling against the norms.
 
 ### What I Gained Going Alcohol Free
 
@@ -70,10 +70,10 @@ Throughout this expeiment, I have continued living my social life as I normally 
 
 > Through the process of going alcohol free you will break the mental link between alcohol and socialisation. _([Clear - James Swanwick](https://amzn.to/4a9cAWG))_.
 
-After experiencing life without alcohol, you being to realise that you don't need it to be socialble, and question all the situations in which you've relied on alcohol to project confidence. In the absense of the default fallback, you undestand what true confidence is, and that is the confidence that comes not from external sources, but from yourself.
+After experiencing life without alcohol, you being to realise that you don't need it to be sociable, and question all the situations in which you've relied on alcohol to project confidence. In the absense of the default fallback, you undestand what true confidence is, and that is the confidence that comes not from external sources, but from yourself.
 
 > No matter what situation or setting you find yourself in, you don’t ever want to depend on anything—or any other person—to make you feel in control and comfortable. That sense of confidence should always come from within. Not from an external source. _([50 Cent - Hustle Harder, Hustle Smarter](https://amzn.to/4bpsz5o))_.
 
 ### Will I Continue This Experiment?
 
-For now yes! I'm not going to be foolish enough to say I'll never drink again, I may well do, but I may also not do. I really do not know. I do know however, that during this peroid, I have enjoyed the consistency, energy and clarity I've experienced. I like the fact I wake up feeling the same everyday. I haven't missed drinking, or feel I've lost anything from my life (except hangovers). I've only gained things. For now, I'm excited to continue this on and see where this goes. Thanks for reading!
+For now yes! I'm not going to be foolish enough to say I'll never drink again, I may do, but I may not do. I really do not know. During this peroid, I have enjoyed the consistency, energy and clarity I've experienced. I like the fact I wake up feeling the same everyday. I haven't missed drinking, or feel I've lost anything from my life (except hangovers). I've only gained things. For now, I'm excited to continue this on and see where this goes. Thanks for reading!
