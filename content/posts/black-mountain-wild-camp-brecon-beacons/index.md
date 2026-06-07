@@ -12,12 +12,17 @@ The adventurer Alastair Humphreys defines adventures as 'a state of mind, a spir
 
 While I have been on a few previous wild camping trips, wild camping alone has until now, been something I never had the courage to do. Instead, I chose to live vicariously through the Youtube videos of others, finding it preferrable to the innate fear of the mythical mountain axe murderer, who may appear may appear to spoil my peaceful evening in the wilderness. After reading many books on the topic of adventure, and wanting a reset away from screens and technology I decided to bite the bullet and do the thing I wasn't comfortable with. With that, I researched my route, packed my kit and took the 220 mile drive from London to the Brecon Beacons.
 
+## Kit List
+
+<img src="kit.png" alt="2024 Alcohol Free" style="width: 100;">
+
 <iframe src="https://www.komoot.com/tour/3018561689/embed?share_token=aHBE3WcFTrW7fdbqiL1prLSBxflpNiKaN723bVjHYea6ZnpLWb&layout=classic&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 
 <img src="kit.png" alt="2024 Alcohol Free" style="width: 100;">
 
-<img src="IMG_20260524_063411_791.JPG" alt="2024 Alcohol Free" style="width: 100;">
 <img src="IMG_20260524_063455_801.JPG" alt="2024 Alcohol Free" style="width: 100;">
+
+<img src="IMG_20260524_063411_791.JPG" alt="2024 Alcohol Free" style="width: 100;">
 
 ### Key information
 
