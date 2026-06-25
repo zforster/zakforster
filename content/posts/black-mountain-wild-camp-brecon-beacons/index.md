@@ -6,9 +6,16 @@ categories = ['Brecon Beacons', 'Wild Camping', 'Black Mountain', 'Fan Brycheini
 description = "First solo wild camp in the Black Mountain of the Brecon Beacons"
 +++
 
-An overnight escape into the outdoors is a perfect way to break with the monotony of routine. Seeking adventure, and with a long weekend fast approaching, I was determined to put the free time to good use and conduct my very first solo wild camp. The objective was simple: drive to the Brecon Beacons, hike to a peak in the Black Mountain, located in the west of the National Park (not to be confused with the Black Mountains in the east), pitch up high on a ridgeline so as to soak in the incredible views, and return to my car early the next morning, free to enjoy the long weekend. With that I plotted a route on OS Maps, packed my kit, and began the 240-mile drive from London to the Brecon Beacons.
+An overnight escape into the outdoors is a perfect way to break with the monotony of routine. Seeking adventure, and with a long weekend fast approaching, I was determined to put the free time to good use and conduct my very first solo wild camp. Truth be told, the prospect of spending a night alone on a mountain for the first time was daunting. Still, it was an experience I was determined to have; for too long, I had been living vicariously through the outdoor focused content of others. Now with free time and motivation, my goal was to complete an overnight stay in the Brecon Beacons National Park. I was looking forward to the challenge, the solitude, and ultimately having a novel experience. As the adventurer and author Alastair Humphreys states, adventure _'is a state of mind, a spirit of trying something new and leaving your comfort zone.'_
 
-Truth be told, the prospect of being alone overnight on a mountain was daunting, summoning mixed emotions of apprehension and excitement. Perhaps it was the innate fear of the unknown rearing its head. Regardless, I was looking forward to the challenge, the solitude, and ultimately having a novel experience; as the adventurer and author Alastair Humphreys states, adventure _'is a state of mind, a spirit of trying something new and leaving your comfort zone.'_
+After conducting research on suitable locations to camp, I settled on an area of the Brecon Beacons known as the Black Mountain, located in the west of the National Park (not to be confused with the Black Mountains in the east). The Black Mountain is home to a range of peaks, valleys, and lakes shaped by glacial erosion during the last Ice Age. This location would be In contrast to popular areas of such as Pen Y Fan (the highest peak in the National Park),
+
+<figure>
+    <img src="fan_foel.jpg" alt="Sunrise at Fan Foel">
+    <figcaption>Fan Foel at sunrise, a peak in the Black Mountain.</figcaption>
+</figure>
+
+The objective was simple: drive to the Brecon Beacons, hike to a peak in the Black Mountain, located in the west of the National Park (not to be confused with the Black Mountains in the east), pitch up high on a ridgeline so as to soak in the incredible views, and return to my car early the next morning, free to enjoy the long weekend. With that I plotted a route on OS Maps, packed my kit, and began the 240-mile drive from London to the Brecon Beacons.
 
 ### Kit List
 
@@ -101,11 +108,6 @@ The sunlight entering through the tent's sheet walls naturally awoke me early at
 <figure>
  <img src="tent.jpg" alt="Tent Selfie">
  <figcaption>A final photo before taking the tent down in the morning.</figcaption>
-</figure>
-
-<figure>
-    <img src="fan_foel.jpg" alt="Sunrise at Fan Foel">
-    <figcaption>A sunrise photo of Fan Foel directly to the left of my tent.</figcaption>
 </figure>
 
 ### Descending to the Car Park
