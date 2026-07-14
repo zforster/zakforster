@@ -14,7 +14,7 @@ enableCodeCopy = false
 
 replyByEmail = false
 
-mainSections = ["posts", "book-notes"]
+mainSections = ["posts"]
 robots = "all"
 
 disableImageOptimization = false

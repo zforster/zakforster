@@ -2,7 +2,7 @@
 date = "2026-07-05T18:11:00"
 draft = false
 title = "Wild Camping Alone on the Black Mountain (Western Brecon Beacons)"
-categories = ['Brecon Beacons', 'Wild Camping', 'Black Mountain', 'Fan Brycheiniog']
+categories = ['Hiking', 'Adventure', 'Wild Camping', 'Brecon Beacons']
 description = "First solo wild camp in the Black Mountain of the Brecon Beacons"
 +++
 
